@@ -1,10 +1,34 @@
 /**
  * Pre-embedded sound, graphic, and video resources for Motion Library
- * Total Resources: 584
+ * Total Resources: 585
  * High-speed local zero-lag playback, preview, and download
- * Includes Money Splash pack assets by @edits_xprince
+ * Includes 4K Hand Gestures overlay
  */
 window.PRELOADED_SOUNDS = [
+  {
+    "id": "1RtWWTjilhZoL1-MtBDAdJjnlgqLIubsv",
+    "title": "Hand Gestures 4K Overlay (Vol. 2)",
+    "category": "green-screen",
+    "categoryDisplay": "Green Screen",
+    "format": "MP4 • 2.55 MB (4K UHD)",
+    "size": "2.55 MB",
+    "videoUrl": "greenscreen/1RtWWTjilhZoL1-MtBDAdJjnlgqLIubsv.mp4",
+    "downloadUrl": "greenscreen/1RtWWTjilhZoL1-MtBDAdJjnlgqLIubsv.mp4",
+    "driveUrl": "https://drive.google.com/uc?export=download&id=1RtWWTjilhZoL1-MtBDAdJjnlgqLIubsv",
+    "license": "Free Royalty-Free Video Overlay",
+    "badge": "MP4",
+    "kind": "VFX",
+    "type": "video",
+    "isNew": true,
+    "source": "Hand Gestures",
+    "details": {
+      "type": "4K Hand Gestures & Pointing Motion Overlay",
+      "situation": "Tutorial callouts, UI button pointing, presentation emphasis, YouTube sidebar pointers, and kinetic instructional edits.",
+      "emotion": "Engaging, Instructional, Clear, Direct",
+      "effects": "Clean 4K hand gestures (swipes, taps, pinches, points) on solid keyable background.",
+      "editingTip": "Key out background using Chroma Key / Ultra Key, scale to desired icon size, and sync with pop or click SFX."
+    }
+  },
   {
     "id": "1U55ehonSIJrZGi3f3QDsRDi0LFXKEcsC",
     "title": "Money Splash SFX - @edits_xprince",
