@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=10.0">
+  <link rel="stylesheet" href="styles.css?v=11.0">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23111827'/%3E%3Cpath d='M10 28V12l10 10 10-10v16h-3.5V17.5l-6.5 6.5-6.5-6.5V28H10z' fill='white'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -43,7 +43,7 @@
       <div class="container hero-container">
         <h1 class="hero-title">Browse Resources</h1>
         <p class="hero-subtitle">
-          Explore 168+ sound effects, 49+ background music tracks, and 50+ transparent character PNGs.
+          Explore 168+ sound effects, 52+ background music tracks, and 50+ transparent character PNGs.
         </p>
 
         <!-- Search Bar -->
@@ -51,7 +51,7 @@
           <input 
             type="text" 
             id="searchInput" 
-            placeholder="Search sounds, music, or characters (e.g. whoosh, ding, umbrella, amazed, waving)..." 
+            placeholder="Search 270+ sounds, music, or characters (e.g. whoosh, le monde, gta, umbrella)..." 
             autocomplete="off"
             aria-label="Search resources"
           >
@@ -66,13 +66,13 @@
         <!-- Filter Tags -->
         <div class="filter-pills" id="filterContainer">
           <button class="filter-pill active" data-category="all">
-            All <span class="filter-count" id="count-all">(267)</span>
+            All <span class="filter-count" id="count-all">(270)</span>
           </button>
           <button class="filter-pill" data-category="sound-effects">
             ⚡ Sound Effects <span class="filter-count" id="count-sound-effects">(168)</span>
           </button>
           <button class="filter-pill" data-category="background-music">
-            🎵 Background Music <span class="filter-count" id="count-background-music">(49)</span>
+            🎵 Background Music <span class="filter-count" id="count-background-music">(52)</span>
           </button>
           <button class="filter-pill" data-category="characters">
             🎨 Character PNGs <span class="filter-count" id="count-characters">(50)</span>
@@ -94,8 +94,30 @@
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
             </span>
-            <span class="folder-label">Audio Drive:</span>
+            <span class="folder-label">SFX Drive:</span>
             <strong class="folder-name">SOUNDS BY GUNEET</strong>
+            <svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+
+          <a 
+            class="drive-folder-pill" 
+            id="driveFolderBtnBgm" 
+            href="https://drive.google.com/drive/folders/1p0wmWtBwRaVHhsHS511CgBD5C6uJQkle?usp=drive_link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            title="Open Background Music Google Drive folder"
+          >
+            <span class="folder-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </span>
+            <span class="folder-label">BGM Drive:</span>
+            <strong class="folder-name">Background Music</strong>
             <svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>
@@ -268,7 +290,7 @@
   </div>
 
   <!-- Pre-embedded data for 0.0s instant offline/online load -->
-  <script src="sounds_data.js?v=10.0"></script>
-  <script src="app.js?v=10.0"></script>
+  <script src="sounds_data.js?v=11.0"></script>
+  <script src="app.js?v=11.0"></script>
 </body>
 </html>
