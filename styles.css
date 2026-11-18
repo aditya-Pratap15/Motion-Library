@@ -137,7 +137,7 @@ button {
    Hero Section
    ========================================================================== */
 .hero-section {
-  padding: 48px 0 24px 0;
+  padding: 44px 0 20px 0;
   text-align: center;
 }
 
@@ -168,7 +168,7 @@ button {
   width: 520px;
   max-width: 100%;
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .search-box input {
@@ -258,7 +258,7 @@ button {
    Clickable Source Google Drive Folder Box
    ========================================================================== */
 .folder-source-container {
-  margin-top: 16px;
+  margin-top: 14px;
   display: flex;
   justify-content: center;
 }
@@ -320,78 +320,153 @@ button {
 }
 
 /* ==========================================================================
-   Now Playing Sticky Float Bar
+   Sticky Floating Bottom Player Dock
    ========================================================================== */
-.now-playing-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.sticky-player-dock {
+  position: fixed;
+  bottom: -120px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  transition: bottom 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.sticky-player-dock.active {
+  bottom: 16px;
+  pointer-events: auto;
+}
+
+.player-card {
   background: #111827;
-  color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 12px;
-  margin-bottom: 22px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  animation: slideDown 0.25s ease;
-}
-
-@keyframes slideDown {
-  from { opacity: 0; transform: translateY(-8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.now-playing-info {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 8px 18px;
+  box-shadow: 0 16px 36px -6px rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
+  backdrop-filter: blur(14px);
+}
+
+.player-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 200px;
+  max-width: 280px;
+}
+
+.equalizer-icon {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 20px;
+}
+
+.equalizer-icon span {
+  width: 3.5px;
+  background: var(--pill-active-bg);
+  border-radius: 2px;
+  animation: bounceBar 1s infinite alternate ease-in-out;
+}
+
+.equalizer-icon span:nth-child(1) { height: 40%; animation-delay: 0.1s; }
+.equalizer-icon span:nth-child(2) { height: 90%; animation-delay: 0.3s; }
+.equalizer-icon span:nth-child(3) { height: 60%; animation-delay: 0.2s; }
+.equalizer-icon span:nth-child(4) { height: 100%; animation-delay: 0.4s; }
+
+@keyframes bounceBar {
+  0% { transform: scaleY(0.3); }
+  100% { transform: scaleY(1); }
+}
+
+.player-meta {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
-.now-playing-label {
-  font-size: 11px;
+.player-badge {
+  font-size: 9.5px;
   font-weight: 800;
   letter-spacing: 0.05em;
   color: var(--pill-active-bg);
 }
 
-.now-playing-title {
-  font-size: 13.5px;
-  font-weight: 600;
+.player-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.now-playing-actions {
+.player-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 52px;
+  background: #000000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.player-center iframe {
+  width: 100%;
+  height: 52px;
+  border: none;
+}
+
+.player-right {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.now-playing-toggle,
-.now-playing-dl {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.12);
-  color: #ffffff;
+.btn-player-dl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background-color: var(--pill-active-bg);
+  color: #09090b;
+  font-size: 13px;
+  font-weight: 700;
+  transition: var(--transition-smooth);
+  white-space: nowrap;
+}
+
+.btn-player-dl:hover {
+  filter: brightness(0.95);
+  transform: translateY(-1px);
+}
+
+.btn-player-close {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #a1a1aa;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: var(--transition-smooth);
 }
 
-.now-playing-toggle:hover,
-.now-playing-dl:hover {
-  background: var(--pill-active-bg);
-  color: #09090b;
+.btn-player-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
 }
 
 /* ==========================================================================
    Resources 6-Cube Grid Section
    ========================================================================== */
 .resources-section {
-  padding: 10px 0 90px 0;
+  padding: 10px 0 100px 0;
 }
 
 /* Exactly 6 cube divs in a row on desktop */
@@ -432,11 +507,6 @@ button {
   border-color: var(--pill-active-bg);
   box-shadow: 0 0 18px rgba(204, 255, 0, 0.35);
   background-color: #1c1c20;
-}
-
-/* When buffering audio */
-.sound-cube.is-loading-audio {
-  border-color: rgba(204, 255, 0, 0.6);
 }
 
 /* Cube Top Row (Badge & Download) */
@@ -510,20 +580,6 @@ button {
 @keyframes pulseEqualizer {
   0% { transform: scale(1); box-shadow: 0 0 0 rgba(204, 255, 0, 0); }
   100% { transform: scale(1.08); box-shadow: 0 0 16px rgba(204, 255, 0, 0.6); }
-}
-
-/* Buffering mini spinner */
-.cube-spinner {
-  width: 18px;
-  height: 18px;
-  border: 2.5px solid rgba(255, 255, 255, 0.2);
-  border-top-color: var(--pill-active-bg);
-  border-radius: 50%;
-  animation: spin 0.7s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
 }
 
 /* Cube Bottom: Title and Size */
@@ -610,6 +666,10 @@ button {
   animation: spin 0.7s linear infinite;
 }
 
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 .pagination-footer {
   text-align: center;
   padding: 24px 0 10px;
@@ -668,6 +728,20 @@ button {
 @media (max-width: 900px) {
   .resources-grid-cube {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .player-card {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .player-left {
+    max-width: 100%;
+  }
+
+  .sticky-player-dock.active {
+    bottom: 8px;
   }
 }
 

@@ -95,32 +95,49 @@
       </div>
     </section>
 
-    <!-- Resources 6-Cube Grid Section with Infinite Scroll Pagination -->
-    <section class="resources-section">
+    <!-- Sticky Floating Audio Player (Active when sound is clicked) -->
+    <div class="sticky-player-dock" id="stickyPlayerDock">
       <div class="container">
-        <!-- Floating sticky now playing bar -->
-        <div class="now-playing-bar" id="nowPlayingBar" style="display: none;">
-          <div class="now-playing-info">
-            <span class="now-playing-label">NOW PLAYING:</span>
-            <span class="now-playing-title" id="nowPlayingTitle">-</span>
+        <div class="player-card">
+          <div class="player-left">
+            <div class="equalizer-icon" id="playerEqualizer">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="player-meta">
+              <span class="player-badge" id="playerBadge">MP3</span>
+              <strong class="player-title" id="playerTitle">Select a sound to play</strong>
+            </div>
           </div>
-          <div class="now-playing-actions">
-            <button class="now-playing-toggle" id="nowPlayingToggle" aria-label="Pause/Resume">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-                <rect x="6" y="4" width="4" height="16" rx="1"/>
-                <rect x="14" y="4" width="4" height="16" rx="1"/>
-              </svg>
-            </button>
-            <a class="now-playing-dl" id="nowPlayingDl" href="#" download title="Download this sound">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+
+          <div class="player-center">
+            <!-- Google Drive Official Audio Streamer Frame -->
+            <iframe 
+              id="driveAudioFrame" 
+              src="about:blank" 
+              allow="autoplay" 
+              tabindex="-1"
+              title="Drive Audio Preview"
+            ></iframe>
+          </div>
+
+          <div class="player-right">
+            <a class="btn-player-dl" id="playerDownloadBtn" href="#" download title="Download this sound file">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                 <polyline points="7 10 12 15 17 10"></polyline>
                 <line x1="12" y1="15" x2="12" y2="3"></line>
               </svg>
+              <span>Download</span>
             </a>
+            <button class="btn-player-close" id="playerCloseBtn" title="Close player">&times;</button>
           </div>
         </div>
+      </div>
+    </div>
 
+    <!-- Resources 6-Cube Grid Section with Infinite Scroll Pagination -->
+    <section class="resources-section">
+      <div class="container">
         <!-- 6-cube-per-row grid -->
         <div class="resources-grid-cube" id="resourcesGrid">
           <!-- Dynamically populated incrementally -->
