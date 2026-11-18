@@ -76,27 +76,36 @@ function createCubeElement(item) {
   cube.id = `cube-${item.id}`;
   cube.setAttribute('role', 'button');
   cube.setAttribute('tabindex', '0');
-  cube.setAttribute('aria-label', `Play ${item.title}`);
+
+  const isImage = item.type === 'image' || item.category === 'characters';
+  cube.setAttribute('aria-label', isImage ? `View ${item.title}` : `Play ${item.title}`);
 
   const isCurrent = currentActiveItem && currentActiveItem.id === item.id;
-  const isPlaying = isCurrent && !masterAudio.paused;
+  const isPlaying = !isImage && isCurrent && !masterAudio.paused;
 
   if (isPlaying) {
     cube.classList.add('is-playing');
   }
 
-  const isBGM = item.kind === 'BGM' || item.category === 'background-music';
-  const kindLabel = isBGM ? 'BGM' : 'SFX';
-  const kindClass = isBGM ? 'kind-bgm' : 'kind-sfx';
+  let kindLabel = 'SFX';
+  let kindClass = 'kind-sfx';
+
+  if (isImage) {
+    kindLabel = 'PNG';
+    kindClass = 'kind-png';
+  } else if (item.kind === 'BGM' || item.category === 'background-music') {
+    kindLabel = 'BGM';
+    kindClass = 'kind-bgm';
+  }
 
   cube.innerHTML = `
     <div class="cube-top">
       <div class="cube-badges-group">
         <span class="cube-kind-tag ${kindClass}">${kindLabel}</span>
-        <span class="cube-badge">${item.badge || 'AUDIO'}</span>
-        <button class="cube-info-btn" title="Sound Details & Editing Guide" aria-label="Details">i</button>
+        <span class="cube-badge">${item.badge || (isImage ? 'PNG' : 'AUDIO')}</span>
+        <button class="cube-info-btn" title="${isImage ? 'Character Details & Editing Guide' : 'Sound Details & Editing Guide'}" aria-label="Details">i</button>
       </div>
-      <a class="cube-download-btn" href="${item.audioUrl || item.downloadUrl}" title="Download Sound" download="${item.title}">
+      <a class="cube-download-btn" href="${item.imageUrl || item.audioUrl || item.downloadUrl}" title="Download ${item.title}" download="${item.title}.${(item.badge || (isImage ? 'png' : 'mp3')).toLowerCase()}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
           <polyline points="7 10 12 15 17 10"></polyline>
@@ -105,39 +114,49 @@ function createCubeElement(item) {
       </a>
     </div>
 
-    <div class="cube-play-btn" aria-label="Play/Pause">
-      ${isPlaying ? `
-        <svg viewBox="0 0 24 24" fill="currentColor">
-          <rect x="6" y="5" width="4" height="14" rx="1"/>
-          <rect x="14" y="5" width="4" height="14" rx="1"/>
-        </svg>
-      ` : `
-        <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M8 5v14l11-7z"/>
-        </svg>
-      `}
-    </div>
+    ${isImage ? `
+      <!-- Center Graphic Character Preview -->
+      <div class="cube-media-preview">
+        <img class="cube-char-img" src="${item.imageUrl}" alt="${item.title}" loading="lazy">
+      </div>
+    ` : `
+      <!-- Center Audio Play Button -->
+      <div class="cube-play-btn" aria-label="Play/Pause">
+        ${isPlaying ? `
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <rect x="6" y="5" width="4" height="14" rx="1"/>
+            <rect x="14" y="5" width="4" height="14" rx="1"/>
+          </svg>
+        ` : `
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        `}
+      </div>
+    `}
 
     <div class="cube-bottom">
       <div class="cube-title" title="${item.title}">${item.title}</div>
       <div class="cube-size">${item.size || ''}</div>
     </div>
 
-    <!-- Active playback progress line at bottom of cube -->
-    <div class="cube-progress-line"><span class="cube-progress-fill"></span></div>
+    ${isImage ? '' : `
+      <!-- Active playback progress line at bottom of cube -->
+      <div class="cube-progress-line"><span class="cube-progress-fill"></span></div>
 
-    <!-- Ambient soundwave background bars -->
-    <div class="cube-waveform-bg">
-      <span style="height: 35%;"></span>
-      <span style="height: 60%;"></span>
-      <span style="height: 90%;"></span>
-      <span style="height: 45%;"></span>
-      <span style="height: 80%;"></span>
-      <span style="height: 55%;"></span>
-      <span style="height: 100%;"></span>
-      <span style="height: 70%;"></span>
-      <span style="height: 40%;"></span>
-    </div>
+      <!-- Ambient soundwave background bars -->
+      <div class="cube-waveform-bg">
+        <span style="height: 35%;"></span>
+        <span style="height: 60%;"></span>
+        <span style="height: 90%;"></span>
+        <span style="height: 45%;"></span>
+        <span style="height: 80%;"></span>
+        <span style="height: 55%;"></span>
+        <span style="height: 100%;"></span>
+        <span style="height: 70%;"></span>
+        <span style="height: 40%;"></span>
+      </div>
+    `}
   `;
 
   // Info 'i' button click opens details modal without triggering sound
@@ -153,15 +172,23 @@ function createCubeElement(item) {
     e.stopPropagation();
   });
 
-  // Clicking cube plays sound instantly
+  // Clicking cube plays sound or opens image preview
   cube.addEventListener('click', () => {
-    toggleSound(item, cube);
+    if (isImage) {
+      openInfoModal(item);
+    } else {
+      toggleSound(item, cube);
+    }
   });
 
   cube.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      toggleSound(item, cube);
+      if (isImage) {
+        openInfoModal(item);
+      } else {
+        toggleSound(item, cube);
+      }
     }
   });
 
@@ -174,26 +201,46 @@ function createCubeElement(item) {
 function openInfoModal(item) {
   modalActiveItem = item;
   const d = item.details || {};
-  const isBGM = item.kind === 'BGM' || item.category === 'background-music';
+  const isImage = item.type === 'image' || item.category === 'characters';
+  const isBGM = !isImage && (item.kind === 'BGM' || item.category === 'background-music');
 
+  const infoModalImageWrap = document.getElementById('infoModalImageWrap');
+  const infoModalImage = document.getElementById('infoModalImage');
   const infoKindTag = document.getElementById('infoKindTag');
-  if (infoKindTag) {
-    infoKindTag.textContent = isBGM ? '🎵 Background Music' : '⚡ Sound Effect';
-    infoKindTag.className = `info-kind-tag ${isBGM ? 'kind-bgm' : 'kind-sfx'}`;
+
+  if (isImage) {
+    if (infoModalImageWrap && infoModalImage) {
+      infoModalImageWrap.style.display = 'flex';
+      infoModalImage.src = item.imageUrl || item.downloadUrl;
+    }
+    if (infoKindTag) {
+      infoKindTag.textContent = '🎨 Character Cutout (PNG)';
+      infoKindTag.className = 'info-kind-tag kind-png';
+    }
+    infoModalPlayBtn.style.display = 'none';
+  } else {
+    if (infoModalImageWrap) {
+      infoModalImageWrap.style.display = 'none';
+    }
+    if (infoKindTag) {
+      infoKindTag.textContent = isBGM ? '🎵 Background Music' : '⚡ Sound Effect';
+      infoKindTag.className = `info-kind-tag ${isBGM ? 'kind-bgm' : 'kind-sfx'}`;
+    }
+    infoModalPlayBtn.style.display = 'inline-flex';
+    updateModalPlayButton();
   }
 
-  infoSoundType.textContent = d.type || (isBGM ? 'Cinematic Score / BGM' : 'Sound Effect');
+  infoSoundType.textContent = d.type || (isImage ? 'Transparent Character Cutout' : (isBGM ? 'Cinematic Score / BGM' : 'Sound Effect'));
   infoSoundTitle.textContent = item.title;
-  infoSoundFormat.textContent = item.format || `${item.badge || 'MP3'} Audio`;
+  infoSoundFormat.textContent = item.format || (isImage ? 'PNG Image' : `${item.badge || 'MP3'} Audio`);
   infoSituation.textContent = d.situation || 'General video cuts, kinetic typography, and motion accents.';
   infoEmotion.textContent = d.emotion || 'Dynamic, Engaging';
   infoEffects.textContent = d.effects || 'Balanced audio spectrum, crisp transient.';
   infoTip.textContent = d.editingTip || 'Sync with visual cuts or motion graphics for maximum punch.';
 
-  infoModalDlBtn.href = item.audioUrl || item.downloadUrl;
-  infoModalDlBtn.setAttribute('download', `${item.title}.${(item.badge || 'mp3').toLowerCase()}`);
-
-  updateModalPlayButton();
+  const fileUrl = item.imageUrl || item.audioUrl || item.downloadUrl;
+  infoModalDlBtn.href = fileUrl;
+  infoModalDlBtn.setAttribute('download', `${item.title}.${(item.badge || (isImage ? 'png' : 'mp3')).toLowerCase()}`);
 
   infoModal.classList.add('active');
   document.body.style.overflow = 'hidden';
@@ -428,7 +475,7 @@ function renderList(reset = false) {
     resourcesGrid.appendChild(fragment);
   }
 
-  paginationCountText.textContent = `Showing ${end} of ${filtered.length} sounds`;
+  paginationCountText.textContent = `Showing ${end} of ${filtered.length} resources`;
 
   if (end >= filtered.length) {
     scrollLoader.classList.remove('active');
@@ -542,6 +589,7 @@ function updateCategoryCounts() {
   const countAll = document.getElementById('count-all');
   const countSounds = document.getElementById('count-sound-effects');
   const countMusic = document.getElementById('count-background-music');
+  const countCharacters = document.getElementById('count-characters');
 
   if (countAll) countAll.textContent = `(${allResources.length})`;
   if (countSounds) {
@@ -551,6 +599,10 @@ function updateCategoryCounts() {
   if (countMusic) {
     const bgmCount = allResources.filter(r => r.category === 'background-music' || r.kind === 'BGM').length;
     countMusic.textContent = `(${bgmCount})`;
+  }
+  if (countCharacters) {
+    const charCount = allResources.filter(r => r.category === 'characters' || r.type === 'image').length;
+    countCharacters.textContent = `(${charCount})`;
   }
 }
 

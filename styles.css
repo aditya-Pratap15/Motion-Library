@@ -260,7 +260,10 @@ button {
 .folder-source-container {
   margin-top: 14px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 
 .drive-folder-pill {
@@ -418,6 +421,11 @@ button {
   color: #c084fc;
 }
 
+.player-kind-tag.kind-png {
+  background: rgba(6, 182, 212, 0.25);
+  color: #22d3ee;
+}
+
 .player-badge {
   font-size: 9.5px;
   font-weight: 800;
@@ -570,6 +578,11 @@ button {
   color: #c084fc;
 }
 
+.cube-kind-tag.kind-png {
+  background: rgba(6, 182, 212, 0.2);
+  color: #22d3ee;
+}
+
 .cube-badge {
   font-size: 9.5px;
   font-weight: 700;
@@ -624,7 +637,7 @@ button {
   background: var(--pill-active-bg);
 }
 
-/* Cube Middle: Center Play Button */
+/* Cube Middle: Center Play Button for Audio */
 .cube-play-btn {
   width: 44px;
   height: 44px;
@@ -635,6 +648,31 @@ button {
   align-items: center;
   justify-content: center;
   transition: var(--transition-smooth);
+  z-index: 2;
+}
+
+/* Cube Middle: Visual Graphic Preview for Character PNGs */
+.cube-media-preview {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 0;
+  z-index: 2;
+}
+
+.cube-char-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.45));
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sound-cube:hover .cube-char-img {
+  transform: scale(1.15) translateY(-2px);
+}
   z-index: 2;
 }
 
@@ -804,6 +842,28 @@ button {
   transform: rotate(90deg);
 }
 
+/* Character PNG Large Visual Preview */
+.info-modal-image-wrap {
+  width: 100%;
+  height: 190px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, rgba(10, 10, 12, 0.7) 100%);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 14px;
+  overflow: hidden;
+}
+
+.info-modal-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.6));
+}
+
 .info-modal-header {
   margin-bottom: 22px;
   padding-right: 36px;
@@ -835,6 +895,11 @@ button {
 .info-kind-tag.kind-bgm {
   background: rgba(168, 85, 247, 0.25);
   color: #d8b4fe;
+}
+
+.info-kind-tag.kind-png {
+  background: rgba(6, 182, 212, 0.2);
+  color: #22d3ee;
 }
 
 .info-type-tag {
