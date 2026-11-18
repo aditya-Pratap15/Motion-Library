@@ -194,6 +194,19 @@ function toggleSound(item, cubeEl) {
 /**
  * Synchronize Master Audio Events with UI
  */
+masterAudio.addEventListener('timeupdate', () => {
+  if (currentActiveItem && masterAudio.duration) {
+    const activeCube = document.getElementById(`cube-${currentActiveItem.id}`);
+    if (activeCube) {
+      const fill = activeCube.querySelector('.cube-progress-fill');
+      if (fill) {
+        const pct = (masterAudio.currentTime / masterAudio.duration) * 100;
+        fill.style.width = pct + '%';
+      }
+    }
+  }
+});
+
 masterAudio.addEventListener('play', () => {
   if (playerCard) playerCard.classList.remove('is-paused');
   if (currentActiveItem) {
