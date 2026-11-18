@@ -71,16 +71,17 @@ function getFilteredResources() {
  * Create a single cube DOM element
  */
 function createCubeElement(item) {
-  const isImage = item.type === 'image' || item.category === 'characters';
+  const isVideo = item.type === 'video' || item.category === 'green-screen' || item.category === 'transitions' || item.category === 'motion-backgrounds';
+  const isImage = !isVideo && (item.type === 'image' || item.category === 'characters' || item.category === 'animated-gifs');
   const cube = document.createElement('div');
-  cube.className = isImage ? 'sound-cube graphic-cube' : 'sound-cube';
+  cube.className = isVideo ? 'sound-cube video-cube' : (isImage ? 'sound-cube graphic-cube' : 'sound-cube');
   cube.id = `cube-${item.id}`;
   cube.setAttribute('role', 'button');
   cube.setAttribute('tabindex', '0');
-  cube.setAttribute('aria-label', isImage ? `View ${item.title}` : `Play ${item.title}`);
+  cube.setAttribute('aria-label', (isVideo || isImage) ? `View ${item.title}` : `Play ${item.title}`);
 
   const isCurrent = currentActiveItem && currentActiveItem.id === item.id;
-  const isPlaying = !isImage && isCurrent && !masterAudio.paused;
+  const isPlaying = !isImage && !isVideo && isCurrent && !masterAudio.paused;
 
   if (isPlaying) {
     cube.classList.add('is-playing');
@@ -95,23 +96,39 @@ function createCubeElement(item) {
   } else if (item.kind === 'PNG' || item.category === 'characters') {
     kindLabel = 'PNG';
     kindClass = 'kind-png';
+  } else if (item.kind === 'VFX' || item.category === 'green-screen') {
+    kindLabel = 'VFX';
+    kindClass = 'kind-vfx';
+  } else if (item.kind === 'TRANS' || item.category === 'transitions') {
+    kindLabel = 'TRANS';
+    kindClass = 'kind-trans';
+  } else if (item.kind === 'LOOP' || item.category === 'motion-backgrounds') {
+    kindLabel = 'LOOP';
+    kindClass = 'kind-loop';
   } else if (item.kind === 'BGM' || item.category === 'background-music') {
     kindLabel = 'BGM';
     kindClass = 'kind-bgm';
   }
 
-  const infoBtnTooltip = item.category === 'animated-gifs' 
-    ? 'Sticker Details & Editing Guide' 
-    : (isImage ? 'Character Details & Editing Guide' : 'Sound Details & Editing Guide');
+  let infoBtnTooltip = 'Sound Details & Editing Guide';
+  if (item.category === 'animated-gifs') infoBtnTooltip = 'Sticker Details & Editing Guide';
+  else if (item.category === 'characters') infoBtnTooltip = 'Character Details & Editing Guide';
+  else if (item.category === 'green-screen') infoBtnTooltip = 'Chroma Key & VFX Details';
+  else if (item.category === 'transitions') infoBtnTooltip = 'Transition Details & Guide';
+  else if (item.category === 'motion-backgrounds') infoBtnTooltip = 'Looping Backdrop Details & Guide';
+
+  const fileUrl = item.videoUrl || item.imageUrl || item.audioUrl || item.downloadUrl;
+  const defaultExt = isVideo ? 'mp4' : (item.category === 'animated-gifs' ? 'gif' : (isImage ? 'png' : 'mp3'));
+  const ext = (item.badge || defaultExt).toLowerCase();
 
   cube.innerHTML = `
     <div class="cube-top">
       <div class="cube-badges-group">
         <span class="cube-kind-tag ${kindClass}">${kindLabel}</span>
-        <span class="cube-badge">${item.badge || (item.category === 'animated-gifs' ? 'GIF' : (isImage ? 'PNG' : 'AUDIO'))}</span>
+        <span class="cube-badge">${item.badge || defaultExt.toUpperCase()}</span>
         <button class="cube-info-btn" title="${infoBtnTooltip}" aria-label="Details">i</button>
       </div>
-      <a class="cube-download-btn" href="${item.imageUrl || item.audioUrl || item.downloadUrl}" title="Download ${item.title}" download="${item.title}.${(item.badge || (item.category === 'animated-gifs' ? 'gif' : (isImage ? 'png' : 'mp3'))).toLowerCase()}">
+      <a class="cube-download-btn" href="${fileUrl}" title="Download ${item.title}" download="${item.title}.${ext}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
           <polyline points="7 10 12 15 17 10"></polyline>
@@ -120,7 +137,12 @@ function createCubeElement(item) {
       </a>
     </div>
 
-    ${isImage ? `
+    ${isVideo ? `
+      <!-- Center Looping Video Preview -->
+      <div class="cube-media-preview">
+        <video class="cube-video-elem" src="${item.videoUrl || item.downloadUrl}" autoplay loop muted playsinline preload="metadata"></video>
+      </div>
+    ` : (isImage ? `
       <!-- Center Graphic Character Preview -->
       <div class="cube-media-preview">
         <img class="cube-char-img" src="${item.imageUrl}" alt="${item.title}" loading="lazy">
@@ -139,14 +161,14 @@ function createCubeElement(item) {
           </svg>
         `}
       </div>
-    `}
+    `)}
 
     <div class="cube-bottom">
       <div class="cube-title" title="${item.title}">${item.title}</div>
       <div class="cube-size">${item.size || ''}</div>
     </div>
 
-    ${isImage ? '' : `
+    ${(isImage || isVideo) ? '' : `
       <!-- Active playback progress line at bottom of cube -->
       <div class="cube-progress-line"><span class="cube-progress-fill"></span></div>
 
@@ -178,9 +200,9 @@ function createCubeElement(item) {
     e.stopPropagation();
   });
 
-  // Clicking cube plays sound or opens image preview
+  // Clicking cube plays sound or opens preview
   cube.addEventListener('click', () => {
-    if (isImage) {
+    if (isImage || isVideo) {
       openInfoModal(item);
     } else {
       toggleSound(item, cube);
@@ -190,7 +212,7 @@ function createCubeElement(item) {
   cube.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      if (isImage) {
+      if (isImage || isVideo) {
         openInfoModal(item);
       } else {
         toggleSound(item, cube);
@@ -207,18 +229,47 @@ function createCubeElement(item) {
 function openInfoModal(item) {
   modalActiveItem = item;
   const d = item.details || {};
-  const isGif = item.kind === 'GIF' || item.category === 'animated-gifs';
-  const isChar = !isGif && (item.kind === 'PNG' || item.category === 'characters');
+  const isVideo = item.type === 'video' || item.category === 'green-screen' || item.category === 'transitions' || item.category === 'motion-backgrounds';
+  const isGif = !isVideo && (item.kind === 'GIF' || item.category === 'animated-gifs');
+  const isChar = !isVideo && !isGif && (item.kind === 'PNG' || item.category === 'characters');
   const isImage = isGif || isChar || item.type === 'image';
-  const isBGM = !isImage && (item.kind === 'BGM' || item.category === 'background-music');
+  const isBGM = !isVideo && !isImage && (item.kind === 'BGM' || item.category === 'background-music');
 
   const infoModalImageWrap = document.getElementById('infoModalImageWrap');
   const infoModalImage = document.getElementById('infoModalImage');
+  const infoModalVideo = document.getElementById('infoModalVideo');
   const infoKindTag = document.getElementById('infoKindTag');
 
-  if (isImage) {
-    if (infoModalImageWrap && infoModalImage) {
-      infoModalImageWrap.style.display = 'flex';
+  if (isVideo) {
+    if (infoModalImageWrap) infoModalImageWrap.style.display = 'flex';
+    if (infoModalImage) infoModalImage.style.display = 'none';
+    if (infoModalVideo) {
+      infoModalVideo.style.display = 'block';
+      infoModalVideo.src = item.videoUrl || item.downloadUrl;
+      infoModalVideo.play().catch(() => {});
+    }
+    if (infoKindTag) {
+      if (item.category === 'green-screen' || item.kind === 'VFX') {
+        infoKindTag.textContent = '🟩 Green Screen Overlay';
+        infoKindTag.className = 'info-kind-tag kind-vfx';
+      } else if (item.category === 'transitions' || item.kind === 'TRANS') {
+        infoKindTag.textContent = '🔄 Video Transition';
+        infoKindTag.className = 'info-kind-tag kind-trans';
+      } else {
+        infoKindTag.textContent = '🌌 Motion Background';
+        infoKindTag.className = 'info-kind-tag kind-loop';
+      }
+    }
+    infoModalPlayBtn.style.display = 'none';
+  } else if (isImage) {
+    if (infoModalImageWrap) infoModalImageWrap.style.display = 'flex';
+    if (infoModalVideo) {
+      infoModalVideo.style.display = 'none';
+      infoModalVideo.pause();
+      infoModalVideo.src = '';
+    }
+    if (infoModalImage) {
+      infoModalImage.style.display = 'block';
       infoModalImage.src = item.imageUrl || item.downloadUrl;
     }
     if (infoKindTag) {
@@ -235,6 +286,11 @@ function openInfoModal(item) {
     if (infoModalImageWrap) {
       infoModalImageWrap.style.display = 'none';
     }
+    if (infoModalVideo) {
+      infoModalVideo.style.display = 'none';
+      infoModalVideo.pause();
+      infoModalVideo.src = '';
+    }
     if (infoKindTag) {
       infoKindTag.textContent = isBGM ? '🎵 Background Music' : '⚡ Sound Effect';
       infoKindTag.className = `info-kind-tag ${isBGM ? 'kind-bgm' : 'kind-sfx'}`;
@@ -243,16 +299,31 @@ function openInfoModal(item) {
     updateModalPlayButton();
   }
 
-  infoSoundType.textContent = d.type || (isGif ? 'Animated Graphic Sticker' : (isChar ? 'Transparent Character Cutout' : (isBGM ? 'Cinematic Score / BGM' : 'Sound Effect')));
+  let defaultType = 'Sound Effect';
+  if (isVideo) {
+    if (item.category === 'green-screen') defaultType = 'Green Screen Chroma Overlay';
+    else if (item.category === 'transitions') defaultType = 'Cinematic Video Transition';
+    else defaultType = 'Looping Motion Backdrop';
+  } else if (isGif) {
+    defaultType = 'Animated Graphic Sticker';
+  } else if (isChar) {
+    defaultType = 'Transparent Character Cutout';
+  } else if (isBGM) {
+    defaultType = 'Cinematic Score / BGM';
+  }
+
+  const defaultExt = isVideo ? 'MP4' : (isGif ? 'GIF' : (isChar ? 'PNG' : `${item.badge || 'MP3'} Audio`));
+
+  infoSoundType.textContent = d.type || defaultType;
   infoSoundTitle.textContent = item.title;
-  infoSoundFormat.textContent = item.format || (isGif ? 'GIF Animation' : (isChar ? 'PNG Image' : `${item.badge || 'MP3'} Audio`));
+  infoSoundFormat.textContent = item.format || defaultExt;
   infoSituation.textContent = d.situation || 'General video cuts, kinetic typography, and motion accents.';
   infoEmotion.textContent = d.emotion || 'Dynamic, Engaging';
-  infoEffects.textContent = d.effects || 'Balanced visual loop, crisp styling.';
+  infoEffects.textContent = d.effects || 'Balanced visual styling and crisp presentation.';
   infoTip.textContent = d.editingTip || 'Sync with visual cuts or motion graphics for maximum punch.';
 
-  const fileUrl = item.imageUrl || item.audioUrl || item.downloadUrl;
-  const ext = (item.badge || (isGif ? 'gif' : (isChar ? 'png' : 'mp3'))).toLowerCase();
+  const fileUrl = item.videoUrl || item.imageUrl || item.audioUrl || item.downloadUrl;
+  const ext = (item.badge || (isVideo ? 'mp4' : (isGif ? 'gif' : (isChar ? 'png' : 'mp3')))).toLowerCase();
   infoModalDlBtn.href = fileUrl;
   infoModalDlBtn.setAttribute('download', `${item.title}.${ext}`);
 
@@ -263,6 +334,11 @@ function openInfoModal(item) {
 function closeInfoModal() {
   infoModal.classList.remove('active');
   document.body.style.overflow = '';
+  const infoModalVideo = document.getElementById('infoModalVideo');
+  if (infoModalVideo) {
+    infoModalVideo.pause();
+    infoModalVideo.src = '';
+  }
   modalActiveItem = null;
 }
 
@@ -605,6 +681,9 @@ function updateCategoryCounts() {
   const countMusic = document.getElementById('count-background-music');
   const countCharacters = document.getElementById('count-characters');
   const countGifs = document.getElementById('count-animated-gifs');
+  const countGreenScreen = document.getElementById('count-green-screen');
+  const countTransitions = document.getElementById('count-transitions');
+  const countMotionBg = document.getElementById('count-motion-backgrounds');
 
   if (countAll) countAll.textContent = `(${allResources.length})`;
   if (countSounds) {
@@ -622,6 +701,18 @@ function updateCategoryCounts() {
   if (countGifs) {
     const gifCount = allResources.filter(r => r.category === 'animated-gifs' || r.kind === 'GIF').length;
     countGifs.textContent = `(${gifCount})`;
+  }
+  if (countGreenScreen) {
+    const gsCount = allResources.filter(r => r.category === 'green-screen' || r.kind === 'VFX').length;
+    countGreenScreen.textContent = `(${gsCount})`;
+  }
+  if (countTransitions) {
+    const transCount = allResources.filter(r => r.category === 'transitions' || r.kind === 'TRANS').length;
+    countTransitions.textContent = `(${transCount})`;
+  }
+  if (countMotionBg) {
+    const bgCount = allResources.filter(r => r.category === 'motion-backgrounds' || r.kind === 'LOOP').length;
+    countMotionBg.textContent = `(${bgCount})`;
   }
 }
 

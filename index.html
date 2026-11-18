@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=12.0">
+  <link rel="stylesheet" href="styles.css?v=13.0">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23111827'/%3E%3Cpath d='M10 28V12l10 10 10-10v16h-3.5V17.5l-6.5 6.5-6.5-6.5V28H10z' fill='white'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -34,6 +34,9 @@
         <a href="#background-music" class="nav-link" data-tab="background-music">Background Music</a>
         <a href="#characters" class="nav-link" data-tab="characters">Character PNGs</a>
         <a href="#animated-gifs" class="nav-link" data-tab="animated-gifs">Animated GIFs</a>
+        <a href="#green-screen" class="nav-link" data-tab="green-screen">Green Screen</a>
+        <a href="#transitions" class="nav-link" data-tab="transitions">Transitions</a>
+        <a href="#motion-backgrounds" class="nav-link" data-tab="motion-backgrounds">Motion Backgrounds</a>
       </nav>
     </div>
   </header>
@@ -44,7 +47,7 @@
       <div class="container hero-container">
         <h1 class="hero-title">Browse Resources</h1>
         <p class="hero-subtitle">
-          Explore 168+ sound effects, 52+ background music tracks, 50+ character PNGs, and 50+ animated GIFs.
+          Explore 173+ sound effects, 102+ background music tracks, 100+ character PNGs, 50+ animated GIFs, 50+ green screens, 18+ transitions, and 31+ motion backgrounds.
         </p>
 
         <!-- Search Bar -->
@@ -52,7 +55,7 @@
           <input 
             type="text" 
             id="searchInput" 
-            placeholder="Search 320+ sounds, music, PNGs, or animated GIFs..." 
+            placeholder="Search 520+ sounds, music, PNGs, GIFs, green screens, or video loops..." 
             autocomplete="off"
             aria-label="Search resources"
           >
@@ -67,19 +70,28 @@
         <!-- Filter Tags -->
         <div class="filter-pills" id="filterContainer">
           <button class="filter-pill active" data-category="all">
-            All <span class="filter-count" id="count-all">(320)</span>
+            All <span class="filter-count" id="count-all">(524)</span>
           </button>
           <button class="filter-pill" data-category="sound-effects">
-            ⚡ Sound Effects <span class="filter-count" id="count-sound-effects">(168)</span>
+            ⚡ Sound Effects <span class="filter-count" id="count-sound-effects">(173)</span>
           </button>
           <button class="filter-pill" data-category="background-music">
-            🎵 Background Music <span class="filter-count" id="count-background-music">(52)</span>
+            🎵 Background Music <span class="filter-count" id="count-background-music">(102)</span>
           </button>
           <button class="filter-pill" data-category="characters">
-            🎨 Character PNGs <span class="filter-count" id="count-characters">(50)</span>
+            🎨 Character PNGs <span class="filter-count" id="count-characters">(100)</span>
           </button>
           <button class="filter-pill" data-category="animated-gifs">
             ✨ Animated GIFs <span class="filter-count" id="count-animated-gifs">(50)</span>
+          </button>
+          <button class="filter-pill" data-category="green-screen">
+            🟩 Green Screen <span class="filter-count" id="count-green-screen">(50)</span>
+          </button>
+          <button class="filter-pill" data-category="transitions">
+            🔄 Transitions <span class="filter-count" id="count-transitions">(18)</span>
+          </button>
+          <button class="filter-pill" data-category="motion-backgrounds">
+            🌌 Motion Backgrounds <span class="filter-count" id="count-motion-backgrounds">(31)</span>
           </button>
         </div>
 
@@ -172,6 +184,28 @@
               <line x1="10" y1="14" x2="21" y2="3"></line>
             </svg>
           </a>
+
+          <a 
+            class="drive-folder-pill" 
+            id="driveFolderBtnSickTube" 
+            href="https://drive.google.com/drive/folders/1nc_NYkfQmSRooha5t8jot_KUP4KYl0xD?usp=drive_link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            title="Open SickTube Editing Material Google Drive folder"
+          >
+            <span class="folder-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </span>
+            <span class="folder-label">SickTube:</span>
+            <strong class="folder-name">Editing Material</strong>
+            <svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
         </div>
 
       </div>
@@ -248,9 +282,10 @@
     <div class="info-modal-card">
       <button class="info-modal-close" id="infoModalClose" aria-label="Close modal">&times;</button>
       
-      <!-- Visual preview for character PNG graphics -->
+      <!-- Visual preview for character PNG graphics and Video elements -->
       <div class="info-modal-image-wrap" id="infoModalImageWrap" style="display: none;">
-        <img class="info-modal-image" id="infoModalImage" src="" alt="Character Preview">
+        <img class="info-modal-image" id="infoModalImage" src="" alt="Preview" style="display: none;">
+        <video class="info-modal-video" id="infoModalVideo" src="" controls autoplay loop playsinline style="display: none; width: 100%; max-height: 240px; border-radius: 8px; outline: none; background: #000;"></video>
       </div>
 
       <div class="info-modal-header">
@@ -316,7 +351,7 @@
   </div>
 
   <!-- Pre-embedded data for 0.0s instant offline/online load -->
-  <script src="sounds_data.js?v=12.0"></script>
-  <script src="app.js?v=12.0"></script>
+  <script src="sounds_data.js?v=13.0"></script>
+  <script src="app.js?v=13.0"></script>
 </body>
 </html>
