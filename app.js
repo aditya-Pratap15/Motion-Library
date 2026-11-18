@@ -56,7 +56,8 @@ let modalActiveItem = null;
  */
 function getFilteredResources() {
   return allResources.filter(item => {
-    const matchesCategory = currentCategory === 'all' || item.category === currentCategory;
+    const matchesCategory = currentCategory === 'all' || 
+      (currentCategory === 'sicktube' ? (item.source === 'SickTube' || item.isNew) : item.category === currentCategory);
     const matchesSearch = searchQuery === '' || 
       item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       (item.details && item.details.situation && item.details.situation.toLowerCase().includes(searchQuery.toLowerCase())) ||
@@ -124,6 +125,7 @@ function createCubeElement(item) {
   cube.innerHTML = `
     <div class="cube-top">
       <div class="cube-badges-group">
+        ${item.isNew ? '<span class="cube-new-badge">NEW</span>' : ''}
         <span class="cube-kind-tag ${kindClass}">${kindLabel}</span>
         <span class="cube-badge">${item.badge || defaultExt.toUpperCase()}</span>
         <button class="cube-info-btn" title="${infoBtnTooltip}" aria-label="Details">i</button>
@@ -684,6 +686,7 @@ function updateCategoryCounts() {
   const countGreenScreen = document.getElementById('count-green-screen');
   const countTransitions = document.getElementById('count-transitions');
   const countMotionBg = document.getElementById('count-motion-backgrounds');
+  const countSickTube = document.getElementById('count-sicktube');
 
   if (countAll) countAll.textContent = `(${allResources.length})`;
   if (countSounds) {
@@ -713,6 +716,10 @@ function updateCategoryCounts() {
   if (countMotionBg) {
     const bgCount = allResources.filter(r => r.category === 'motion-backgrounds' || r.kind === 'LOOP').length;
     countMotionBg.textContent = `(${bgCount})`;
+  }
+  if (countSickTube) {
+    const stCount = allResources.filter(r => r.source === 'SickTube' || r.isNew).length;
+    countSickTube.textContent = `(${stCount})`;
   }
 }
 
