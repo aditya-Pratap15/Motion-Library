@@ -1,10 +1,58 @@
 /**
  * Pre-embedded sound, graphic, and video resources for Motion Library
- * Total Resources: 582
+ * Total Resources: 584
  * High-speed local zero-lag playback, preview, and download
- * All 108 SickTube background music tracks fully cataloged and verified
+ * Includes Money Splash pack assets by @edits_xprince
  */
 window.PRELOADED_SOUNDS = [
+  {
+    "id": "1U55ehonSIJrZGi3f3QDsRDi0LFXKEcsC",
+    "title": "Money Splash SFX - @edits_xprince",
+    "category": "sound-effects",
+    "categoryDisplay": "Sound Effects",
+    "format": "MP3 • 32 KB",
+    "size": "32 KB",
+    "downloadUrl": "sounds/1U55ehonSIJrZGi3f3QDsRDi0LFXKEcsC.mp3",
+    "streamUrl": "sounds/1U55ehonSIJrZGi3f3QDsRDi0LFXKEcsC.mp3",
+    "audioUrl": "sounds/1U55ehonSIJrZGi3f3QDsRDi0LFXKEcsC.mp3",
+    "driveUrl": "https://drive.google.com/uc?export=download&id=1U55ehonSIJrZGi3f3QDsRDi0LFXKEcsC",
+    "license": "Free Royalty-Free Audio",
+    "badge": "MP3",
+    "kind": "SFX",
+    "isNew": true,
+    "source": "Money Splash",
+    "details": {
+      "type": "Cash & Coin Shower / Splash SFX",
+      "situation": "Winning bets, crypto gains, luxury flexes, sales milestone celebrations, and jackpot notifications.",
+      "emotion": "Excitement, Wealth, Satisfaction, Celebration",
+      "effects": "Crisp coin clinks, fluttering cash bills, clean register chime.",
+      "editingTip": "Layer this sound effect directly underneath the Money Explosion VFX for combined visual and auditory impact."
+    }
+  },
+  {
+    "id": "1TSz1k5Z7nSeeiZ1b9BYrxgZm8upZuwx6",
+    "title": "Money Explosion Overlay - @edits_xprince",
+    "category": "green-screen",
+    "categoryDisplay": "Green Screen",
+    "format": "MP4 • 1.38 MB (HD)",
+    "size": "1.38 MB",
+    "videoUrl": "greenscreen/1TSz1k5Z7nSeeiZ1b9BYrxgZm8upZuwx6.mp4",
+    "downloadUrl": "greenscreen/1TSz1k5Z7nSeeiZ1b9BYrxgZm8upZuwx6.mov",
+    "driveUrl": "https://drive.google.com/uc?export=download&id=1TSz1k5Z7nSeeiZ1b9BYrxgZm8upZuwx6",
+    "license": "Free Royalty-Free Video Overlay",
+    "badge": "MP4",
+    "kind": "VFX",
+    "type": "video",
+    "isNew": true,
+    "source": "Money Splash",
+    "details": {
+      "type": "Kinetic Cash Shower / Money Explosion VFX",
+      "situation": "Revenue reveals, e-commerce milestones, trading profit flexes, business scaling graphs, and celebratory climax scenes.",
+      "emotion": "Abundance, High Energy, Euphoric, Viral Impact",
+      "effects": "Dynamic 3D flying banknotes, burst velocity dispersion, motion-blurred currency bills.",
+      "editingTip": "Set blend mode to Screen or apply Ultra Key / Chroma Key to remove background; pair directly with Money Splash SFX."
+    }
+  },
   {
     "id": "1Atif9GH3WWQRSe26-cdtA9D0juQwChx4",
     "title": "Higher Powered - Audio Hertz",
