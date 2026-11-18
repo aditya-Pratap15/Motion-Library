@@ -60,8 +60,10 @@ function getFilteredResources() {
       (currentCategory === 'sicktube' ? (item.source === 'SickTube' || item.isNew) : item.category === currentCategory);
     const matchesSearch = searchQuery === '' || 
       item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (item.subfolder && item.subfolder.toLowerCase().includes(searchQuery.toLowerCase())) ||
       (item.details && item.details.situation && item.details.situation.toLowerCase().includes(searchQuery.toLowerCase())) ||
       (item.details && item.details.emotion && item.details.emotion.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (item.details && item.details.folder && item.details.folder.toLowerCase().includes(searchQuery.toLowerCase())) ||
       (item.format && item.format.toLowerCase().includes(searchQuery.toLowerCase()));
 
     return matchesCategory && matchesSearch;
@@ -97,6 +99,9 @@ function createCubeElement(item) {
   } else if (item.kind === 'PNG' || item.category === 'characters') {
     kindLabel = 'PNG';
     kindClass = 'kind-png';
+  } else if (item.kind === 'THUMB' || item.category === 'thumbnail-assets') {
+    kindLabel = 'THUMB';
+    kindClass = 'kind-thumb';
   } else if (item.kind === 'VFX' || item.category === 'green-screen') {
     kindLabel = 'VFX';
     kindClass = 'kind-vfx';
@@ -114,6 +119,7 @@ function createCubeElement(item) {
   let infoBtnTooltip = 'Sound Details & Editing Guide';
   if (item.category === 'animated-gifs') infoBtnTooltip = 'Sticker Details & Editing Guide';
   else if (item.category === 'characters') infoBtnTooltip = 'Character Details & Editing Guide';
+  else if (item.category === 'thumbnail-assets') infoBtnTooltip = 'Thumbnail Asset Details & Guide';
   else if (item.category === 'green-screen') infoBtnTooltip = 'Chroma Key & VFX Details';
   else if (item.category === 'transitions') infoBtnTooltip = 'Transition Details & Guide';
   else if (item.category === 'motion-backgrounds') infoBtnTooltip = 'Looping Backdrop Details & Guide';
@@ -145,9 +151,9 @@ function createCubeElement(item) {
         <video class="cube-video-elem" src="${item.videoUrl || item.downloadUrl}" autoplay loop muted playsinline preload="metadata"></video>
       </div>
     ` : (isImage ? `
-      <!-- Center Graphic Character Preview -->
+      <!-- Center Graphic Character / Thumbnail Preview -->
       <div class="cube-media-preview">
-        <img class="cube-char-img" src="${item.imageUrl}" alt="${item.title}" loading="lazy">
+        <img class="cube-char-img" src="${item.imageUrl}" alt="${item.title}" loading="lazy" onerror="if (this.src !== '${item.cdnUrl || ''}' && '${item.cdnUrl || ''}') this.src='${item.cdnUrl}'">
       </div>
     ` : `
       <!-- Center Audio Play Button -->
@@ -275,7 +281,10 @@ function openInfoModal(item) {
       infoModalImage.src = item.imageUrl || item.downloadUrl;
     }
     if (infoKindTag) {
-      if (isGif) {
+      if (item.category === 'thumbnail-assets' || item.kind === 'THUMB') {
+        infoKindTag.textContent = '🖼️ Thumbnail Asset (' + (item.subfolder || 'Overlay') + ')';
+        infoKindTag.className = 'info-kind-tag kind-thumb';
+      } else if (isGif) {
         infoKindTag.textContent = '✨ Animated GIF Sticker';
         infoKindTag.className = 'info-kind-tag kind-gif';
       } else {
@@ -686,9 +695,14 @@ function updateCategoryCounts() {
   const countGreenScreen = document.getElementById('count-green-screen');
   const countTransitions = document.getElementById('count-transitions');
   const countMotionBg = document.getElementById('count-motion-backgrounds');
+  const countThumbnailAssets = document.getElementById('count-thumbnail-assets');
   const countSickTube = document.getElementById('count-sicktube');
 
   if (countAll) countAll.textContent = `(${allResources.length})`;
+  if (countThumbnailAssets) {
+    const thumbCount = allResources.filter(r => r.category === 'thumbnail-assets' || r.kind === 'THUMB').length;
+    countThumbnailAssets.textContent = `(${thumbCount})`;
+  }
   if (countSounds) {
     const sfxCount = allResources.filter(r => r.category === 'sound-effects' || r.kind === 'SFX').length;
     countSounds.textContent = `(${sfxCount})`;

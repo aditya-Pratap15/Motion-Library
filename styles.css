@@ -426,6 +426,11 @@ button {
   color: #22d3ee;
 }
 
+.player-kind-tag.kind-thumb {
+  background: rgba(244, 63, 94, 0.25);
+  color: #fb7185;
+}
+
 .player-kind-tag.kind-gif {
   background: rgba(245, 158, 11, 0.25);
   color: #fbbf24;
@@ -630,6 +635,16 @@ button {
 .cube-kind-tag.kind-png {
   background: rgba(6, 182, 212, 0.2);
   color: #22d3ee;
+}
+
+.cube-kind-tag.kind-thumb {
+  background: rgba(244, 63, 94, 0.2);
+  color: #fb7185;
+}
+
+.info-kind-tag.kind-thumb {
+  background: rgba(244, 63, 94, 0.2);
+  color: #fb7185;
 }
 
 .cube-kind-tag.kind-gif {
