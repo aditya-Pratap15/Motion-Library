@@ -510,13 +510,19 @@ button {
   background-color: #1c1c20;
 }
 
-/* Cube Top Row (Badge & Download) */
+/* Cube Top Row (Badge Group & Download) */
 .cube-top {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 2;
+}
+
+.cube-badges-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .cube-badge {
@@ -527,6 +533,33 @@ button {
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.08);
   color: #a1a1aa;
+}
+
+/* The simple "i" info button beside MP3 text */
+.cube-info-btn {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: transparent;
+  color: #a1a1aa;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: var(--primary-font);
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+  cursor: pointer;
+  padding: 0;
+}
+
+.cube-info-btn:hover {
+  background: var(--pill-active-bg);
+  color: #09090b;
+  border-color: var(--pill-active-bg);
+  transform: scale(1.15);
 }
 
 .cube-download-btn {
@@ -661,6 +694,192 @@ button {
 
 .sound-cube.is-playing .cube-waveform-bg span {
   background: var(--pill-active-bg);
+}
+
+/* ==========================================================================
+   Minimalist Sound Information Modal
+   ========================================================================== */
+.info-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(10px);
+  z-index: 120;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.info-modal-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.info-modal-card {
+  background: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  max-width: 540px;
+  width: 100%;
+  padding: 28px;
+  position: relative;
+  box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.6);
+  transform: scale(0.95);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #ffffff;
+}
+
+.info-modal-backdrop.active .info-modal-card {
+  transform: scale(1);
+}
+
+.info-modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+.info-modal-close:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: rotate(90deg);
+}
+
+.info-modal-header {
+  margin-bottom: 22px;
+  padding-right: 36px;
+}
+
+.info-type-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pill-active-bg);
+  background: rgba(204, 255, 0, 0.12);
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.info-sound-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.25;
+  margin-bottom: 4px;
+}
+
+.info-sound-format {
+  font-size: 12px;
+  color: #71717a;
+  font-weight: 600;
+}
+
+.info-details-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 26px;
+}
+
+.info-detail-item {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.info-detail-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  color: #a1a1aa;
+  margin-bottom: 4px;
+}
+
+.info-detail-label strong {
+  color: #e4e4e7;
+  font-weight: 700;
+}
+
+.info-icon {
+  font-size: 13px;
+}
+
+.info-detail-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #f4f4f5;
+}
+
+.info-detail-item.highlight-tip {
+  border-color: rgba(204, 255, 0, 0.3);
+  background: rgba(204, 255, 0, 0.03);
+}
+
+.info-detail-item.highlight-tip .info-detail-label strong {
+  color: var(--pill-active-bg);
+}
+
+.info-modal-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-modal-listen {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: var(--pill-active-bg);
+  color: #09090b;
+  font-size: 13.5px;
+  font-weight: 700;
+  transition: var(--transition-smooth);
+}
+
+.btn-modal-listen:hover {
+  filter: brightness(0.95);
+  transform: translateY(-1px);
+}
+
+.btn-modal-dl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-size: 13.5px;
+  font-weight: 700;
+  transition: var(--transition-smooth);
+}
+
+.btn-modal-dl:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
 }
 
 /* ==========================================================================

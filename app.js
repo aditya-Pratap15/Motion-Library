@@ -35,6 +35,22 @@ const playerDownloadBtn = document.getElementById('playerDownloadBtn');
 const masterAudio = document.getElementById('masterAudio');
 const playerCloseBtn = document.getElementById('playerCloseBtn');
 
+// Minimalist Info Modal Elements
+const infoModal = document.getElementById('infoModal');
+const infoModalClose = document.getElementById('infoModalClose');
+const infoSoundType = document.getElementById('infoSoundType');
+const infoSoundTitle = document.getElementById('infoSoundTitle');
+const infoSoundFormat = document.getElementById('infoSoundFormat');
+const infoSituation = document.getElementById('infoSituation');
+const infoEmotion = document.getElementById('infoEmotion');
+const infoEffects = document.getElementById('infoEffects');
+const infoTip = document.getElementById('infoTip');
+const infoModalPlayBtn = document.getElementById('infoModalPlayBtn');
+const infoPlayBtnText = document.getElementById('infoPlayBtnText');
+const infoModalDlBtn = document.getElementById('infoModalDlBtn');
+
+let modalActiveItem = null;
+
 /**
  * Filter resources by category and active search query
  */
@@ -43,6 +59,8 @@ function getFilteredResources() {
     const matchesCategory = currentCategory === 'all' || item.category === currentCategory;
     const matchesSearch = searchQuery === '' || 
       item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (item.details && item.details.situation && item.details.situation.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (item.details && item.details.emotion && item.details.emotion.toLowerCase().includes(searchQuery.toLowerCase())) ||
       (item.format && item.format.toLowerCase().includes(searchQuery.toLowerCase()));
 
     return matchesCategory && matchesSearch;
@@ -69,7 +87,10 @@ function createCubeElement(item) {
 
   cube.innerHTML = `
     <div class="cube-top">
-      <span class="cube-badge">${item.badge || 'AUDIO'}</span>
+      <div class="cube-badges-group">
+        <span class="cube-badge">${item.badge || 'AUDIO'}</span>
+        <button class="cube-info-btn" title="Sound Details & Editing Guide" aria-label="Details">i</button>
+      </div>
       <a class="cube-download-btn" href="${item.audioUrl || item.downloadUrl}" title="Download Sound" download="${item.title}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
@@ -79,7 +100,7 @@ function createCubeElement(item) {
       </a>
     </div>
 
-    <button class="cube-play-btn" aria-label="Play/Pause">
+    <div class="cube-play-btn" aria-label="Play/Pause">
       ${isPlaying ? `
         <svg viewBox="0 0 24 24" fill="currentColor">
           <rect x="6" y="5" width="4" height="14" rx="1"/>
@@ -90,12 +111,15 @@ function createCubeElement(item) {
           <path d="M8 5v14l11-7z"/>
         </svg>
       `}
-    </button>
+    </div>
 
     <div class="cube-bottom">
       <div class="cube-title" title="${item.title}">${item.title}</div>
       <div class="cube-size">${item.size || ''}</div>
     </div>
+
+    <!-- Active playback progress line at bottom of cube -->
+    <div class="cube-progress-line"><span class="cube-progress-fill"></span></div>
 
     <!-- Ambient soundwave background bars -->
     <div class="cube-waveform-bg">
@@ -110,6 +134,13 @@ function createCubeElement(item) {
       <span style="height: 40%;"></span>
     </div>
   `;
+
+  // Info 'i' button click opens details modal without triggering sound
+  const infoBtn = cube.querySelector('.cube-info-btn');
+  infoBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    openInfoModal(item);
+  });
 
   // Download button click prevents audio play trigger
   const dlBtn = cube.querySelector('.cube-download-btn');
@@ -133,6 +164,74 @@ function createCubeElement(item) {
 }
 
 /**
+ * Open Minimalist Sound Info Modal
+ */
+function openInfoModal(item) {
+  modalActiveItem = item;
+  const d = item.details || {};
+
+  infoSoundType.textContent = d.type || 'Sound Effect';
+  infoSoundTitle.textContent = item.title;
+  infoSoundFormat.textContent = item.format || `${item.badge || 'MP3'} Audio`;
+  infoSituation.textContent = d.situation || 'General video cuts, kinetic typography, and motion accents.';
+  infoEmotion.textContent = d.emotion || 'Dynamic, Engaging';
+  infoEffects.textContent = d.effects || 'Balanced audio spectrum, crisp transient.';
+  infoTip.textContent = d.editingTip || 'Sync with visual cuts or motion graphics for maximum punch.';
+
+  infoModalDlBtn.href = item.audioUrl || item.downloadUrl;
+  infoModalDlBtn.setAttribute('download', `${item.title}.${(item.badge || 'mp3').toLowerCase()}`);
+
+  updateModalPlayButton();
+
+  infoModal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeInfoModal() {
+  infoModal.classList.remove('active');
+  document.body.style.overflow = '';
+  modalActiveItem = null;
+}
+
+function updateModalPlayButton() {
+  if (!modalActiveItem) return;
+  const isPlayingThis = currentActiveItem && currentActiveItem.id === modalActiveItem.id && !masterAudio.paused;
+
+  if (isPlayingThis) {
+    infoPlayBtnText.textContent = "Pause Sound";
+    infoModalPlayBtn.querySelector('svg').innerHTML = `
+      <rect x="6" y="5" width="4" height="14" rx="1"/>
+      <rect x="14" y="5" width="4" height="14" rx="1"/>
+    `;
+  } else {
+    infoPlayBtnText.textContent = "Play Preview";
+    infoModalPlayBtn.querySelector('svg').innerHTML = `
+      <path d="M8 5v14l11-7z"/>
+    `;
+  }
+}
+
+// Modal play preview button
+infoModalPlayBtn.addEventListener('click', () => {
+  if (modalActiveItem) {
+    const cubeEl = document.getElementById(`cube-${modalActiveItem.id}`);
+    toggleSound(modalActiveItem, cubeEl);
+    updateModalPlayButton();
+  }
+});
+
+// Modal close triggers
+infoModalClose.addEventListener('click', closeInfoModal);
+infoModal.addEventListener('click', (e) => {
+  if (e.target === infoModal) closeInfoModal();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && infoModal.classList.contains('active')) {
+    closeInfoModal();
+  }
+});
+
+/**
  * Toggle or Play Sound Instantly
  */
 function toggleSound(item, cubeEl) {
@@ -145,6 +244,7 @@ function toggleSound(item, cubeEl) {
     } else {
       masterAudio.pause();
     }
+    updateModalPlayButton();
     return;
   }
 
@@ -156,6 +256,8 @@ function toggleSound(item, cubeEl) {
     el.classList.remove('is-playing');
     const b = el.querySelector('.cube-play-btn');
     if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+    const fill = el.querySelector('.cube-progress-fill');
+    if (fill) fill.style.width = '0%';
   });
 
   // Update Bottom Player Dock Info
@@ -164,7 +266,7 @@ function toggleSound(item, cubeEl) {
   playerDownloadBtn.href = item.audioUrl || item.downloadUrl;
   playerDownloadBtn.setAttribute('download', `${item.title}.${(item.badge || 'mp3').toLowerCase()}`);
 
-  // Set audio source: use local sounds file first, fallback to drive download URL
+  // Set audio source
   const audioSource = item.audioUrl || `sounds/${item.id}.${(item.badge || 'mp3').toLowerCase()}`;
   masterAudio.src = audioSource;
 
@@ -189,6 +291,8 @@ function toggleSound(item, cubeEl) {
   masterAudio.play().catch(err => {
     console.warn("Autoplay was blocked or audio error:", err);
   });
+
+  updateModalPlayButton();
 }
 
 /**
@@ -217,6 +321,7 @@ masterAudio.addEventListener('play', () => {
       if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>`;
     }
   }
+  updateModalPlayButton();
 });
 
 masterAudio.addEventListener('pause', () => {
@@ -229,6 +334,7 @@ masterAudio.addEventListener('pause', () => {
       if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
     }
   }
+  updateModalPlayButton();
 });
 
 masterAudio.addEventListener('ended', () => {
@@ -239,8 +345,11 @@ masterAudio.addEventListener('ended', () => {
       activeCube.classList.remove('is-playing');
       const b = activeCube.querySelector('.cube-play-btn');
       if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+      const fill = activeCube.querySelector('.cube-progress-fill');
+      if (fill) fill.style.width = '0%';
     }
   }
+  updateModalPlayButton();
 });
 
 // Close player button
@@ -252,8 +361,11 @@ playerCloseBtn.addEventListener('click', () => {
     el.classList.remove('is-playing');
     const b = el.querySelector('.cube-play-btn');
     if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+    const fill = el.querySelector('.cube-progress-fill');
+    if (fill) fill.style.width = '0%';
   });
   currentActiveItem = null;
+  updateModalPlayButton();
 });
 
 /**

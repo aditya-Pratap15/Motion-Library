@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4.0">
+  <link rel="stylesheet" href="styles.css?v=5.0">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23111827'/%3E%3Cpath d='M10 28V12l10 10 10-10v16h-3.5V17.5l-6.5 6.5-6.5-6.5V28H10z' fill='white'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -41,7 +41,7 @@
       <div class="container hero-container">
         <h1 class="hero-title">Browse Resources</h1>
         <p class="hero-subtitle">
-          Find, preview, and download 218+ high-quality royalty-free sound effects instantly.
+          Find, preview, and download 217+ high-quality royalty-free sound effects instantly.
         </p>
 
         <!-- Search Bar -->
@@ -63,8 +63,8 @@
 
         <!-- Filter Tags -->
         <div class="filter-pills" id="filterContainer">
-          <button class="filter-pill" data-category="all">All <span class="filter-count" id="count-all">(218)</span></button>
-          <button class="filter-pill active" data-category="sound-effects">Sound Effects <span class="filter-count" id="count-sound-effects">(218)</span></button>
+          <button class="filter-pill" data-category="all">All <span class="filter-count" id="count-all">(217)</span></button>
+          <button class="filter-pill active" data-category="sound-effects">Sound Effects <span class="filter-count" id="count-sound-effects">(217)</span></button>
         </div>
 
         <!-- Drive Source Folder Clickable Box (Direct Link) -->
@@ -144,7 +144,7 @@
 
         <!-- End of Results / Pagination status text -->
         <div class="pagination-footer" id="paginationFooter">
-          <span id="paginationCountText">Showing 24 of 218 sounds</span>
+          <span id="paginationCountText">Showing 24 of 217 sounds</span>
         </div>
 
         <!-- Empty state when search has no matches -->
@@ -158,8 +158,72 @@
     </section>
   </main>
 
+  <!-- Minimalist Sound Information Modal -->
+  <div class="info-modal-backdrop" id="infoModal">
+    <div class="info-modal-card">
+      <button class="info-modal-close" id="infoModalClose" aria-label="Close modal">&times;</button>
+      
+      <div class="info-modal-header">
+        <span class="info-type-tag" id="infoSoundType">Transition & Swell</span>
+        <h2 class="info-sound-title" id="infoSoundTitle">Sound Name</h2>
+        <span class="info-sound-format" id="infoSoundFormat">MP3 • 45 KB</span>
+      </div>
+
+      <div class="info-details-grid">
+        <div class="info-detail-item">
+          <div class="info-detail-label">
+            <span class="info-icon">🎯</span>
+            <strong>Where to Use in Video:</strong>
+          </div>
+          <p class="info-detail-text" id="infoSituation">-</p>
+        </div>
+
+        <div class="info-detail-item">
+          <div class="info-detail-label">
+            <span class="info-icon">🎭</span>
+            <strong>Emotion & Mood:</strong>
+          </div>
+          <p class="info-detail-text" id="infoEmotion">-</p>
+        </div>
+
+        <div class="info-detail-item">
+          <div class="info-detail-label">
+            <span class="info-icon">⚡</span>
+            <strong>Sound Design & Effect:</strong>
+          </div>
+          <p class="info-detail-text" id="infoEffects">-</p>
+        </div>
+
+        <div class="info-detail-item highlight-tip">
+          <div class="info-detail-label">
+            <span class="info-icon">💡</span>
+            <strong>Editor's Pro-Tip:</strong>
+          </div>
+          <p class="info-detail-text" id="infoTip">-</p>
+        </div>
+      </div>
+
+      <div class="info-modal-actions">
+        <button class="btn-modal-listen" id="infoModalPlayBtn">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+          <span id="infoPlayBtnText">Play Preview</span>
+        </button>
+        <a class="btn-modal-dl" id="infoModalDlBtn" href="#" download>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- Pre-embedded data for 0.0s instant offline/online load -->
-  <script src="sounds_data.js?v=4.0"></script>
-  <script src="app.js?v=4.0"></script>
+  <script src="sounds_data.js?v=5.0"></script>
+  <script src="app.js?v=5.0"></script>
 </body>
 </html>
