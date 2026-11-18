@@ -49,7 +49,7 @@
           <input 
             type="text" 
             id="searchInput" 
-            placeholder="Search sound effects (e.g. whoosh, ding, cinematic, glitch)..." 
+            placeholder="Search 218+ sound effects (e.g. whoosh, ding, glitch, piano)..." 
             autocomplete="off"
             aria-label="Search resources"
           >
@@ -61,24 +61,44 @@
           </button>
         </div>
 
-        <!-- Filter Tags (Dynamically built from real data) -->
+        <!-- Filter Tags -->
         <div class="filter-pills" id="filterContainer">
-          <button class="filter-pill active" data-category="all">All <span class="filter-count" id="count-all"></span></button>
-          <button class="filter-pill" data-category="sound-effects">Sound Effects <span class="filter-count" id="count-sound-effects"></span></button>
+          <button class="filter-pill" data-category="all">All <span class="filter-count" id="count-all">(218)</span></button>
+          <button class="filter-pill active" data-category="sound-effects">Sound Effects <span class="filter-count" id="count-sound-effects">(218)</span></button>
         </div>
 
-        <!-- Live Sync Status -->
-        <div class="sync-indicator" id="syncStatus">
-          <span class="sync-dot"></span>
-          <span id="syncText">Loading sounds from Google Drive...</span>
+        <!-- Drive Source Folder Clickable Box (Direct Link) -->
+        <div class="folder-source-container">
+          <a 
+            class="drive-folder-pill" 
+            id="driveFolderBtn" 
+            href="https://drive.google.com/drive/folders/1BF8K5uLm_1CJbHqs-AEtgBYuMfHWos7w?usp=drive_link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            title="Open original Google Drive folder"
+          >
+            <span class="folder-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </span>
+            <span class="folder-label">Source Folder:</span>
+            <strong class="folder-name">SOUNDS BY GUNEET</strong>
+            <svg class="external-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
         </div>
+
       </div>
     </section>
 
-    <!-- Resources 6-Column Cube Grid Section -->
+    <!-- Resources 6-Cube Grid Section with Infinite Scroll Pagination -->
     <section class="resources-section">
       <div class="container">
-        <!-- Floating currently playing bar if sound is playing -->
+        <!-- Floating sticky now playing bar -->
         <div class="now-playing-bar" id="nowPlayingBar" style="display: none;">
           <div class="now-playing-info">
             <span class="now-playing-label">NOW PLAYING:</span>
@@ -101,21 +121,35 @@
           </div>
         </div>
 
+        <!-- 6-cube-per-row grid -->
         <div class="resources-grid-cube" id="resourcesGrid">
-          <!-- Dynamically populated 6-cube-per-row grid -->
+          <!-- Dynamically populated incrementally -->
+        </div>
+
+        <!-- Infinite Scroll Sentinel & Loader -->
+        <div class="scroll-loader" id="scrollLoader">
+          <div class="loading-spinner"></div>
+          <span>Loading more sounds...</span>
+        </div>
+
+        <!-- End of Results / Pagination status text -->
+        <div class="pagination-footer" id="paginationFooter">
+          <span id="paginationCountText">Showing 24 of 218 sounds</span>
         </div>
 
         <!-- Empty state when search has no matches -->
         <div class="empty-state" id="emptyState" style="display: none;">
           <div class="empty-icon">🔍</div>
           <h3>No sound effects found</h3>
-          <p>Try searching for a different keyword or resetting your filter</p>
+          <p>Try searching for a different keyword or resetting your search</p>
           <button class="btn-reset" id="resetBtn">Reset Search</button>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Pre-embedded data for 0.0s instant offline/online load -->
+  <script src="sounds_data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -137,7 +137,7 @@ button {
    Hero Section
    ========================================================================== */
 .hero-section {
-  padding: 50px 0 28px 0;
+  padding: 48px 0 24px 0;
   text-align: center;
 }
 
@@ -160,7 +160,7 @@ button {
   color: var(--text-muted);
   max-width: 540px;
   line-height: 1.5;
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 
 /* Search Box */
@@ -168,7 +168,7 @@ button {
   width: 520px;
   max-width: 100%;
   position: relative;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
 .search-box input {
@@ -223,7 +223,7 @@ button {
 }
 
 .filter-pill {
-  padding: 8px 20px;
+  padding: 8px 22px;
   border-radius: 9999px;
   font-size: 13.5px;
   font-weight: 500;
@@ -254,23 +254,69 @@ button {
   opacity: 0.75;
 }
 
-/* Sync Status Indicator */
-.sync-indicator {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
-  color: #10b981;
-  margin-top: 14px;
-  font-weight: 600;
+/* ==========================================================================
+   Clickable Source Google Drive Folder Box
+   ========================================================================== */
+.folder-source-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
 }
 
-.sync-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: #10b981;
-  box-shadow: 0 0 8px rgba(16, 185, 129, 0.6);
+.drive-folder-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border-radius: 10px;
+  background-color: #f4f4f5;
+  border: 1px solid #e4e4e7;
+  color: #3f3f46;
+  font-size: 13px;
+  transition: var(--transition-smooth);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.drive-folder-pill:hover {
+  background-color: #18181b;
+  border-color: #18181b;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.folder-icon {
+  display: flex;
+  align-items: center;
+  color: #f59e0b;
+}
+
+.drive-folder-pill:hover .folder-icon {
+  color: var(--pill-active-bg);
+}
+
+.folder-label {
+  color: #71717a;
+  font-size: 12px;
+}
+
+.drive-folder-pill:hover .folder-label {
+  color: #a1a1aa;
+}
+
+.folder-name {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.external-icon {
+  color: #a1a1aa;
+  transition: transform 0.18s ease;
+}
+
+.drive-folder-pill:hover .external-icon {
+  color: var(--pill-active-bg);
+  transform: translate(2px, -2px);
 }
 
 /* ==========================================================================
@@ -388,6 +434,11 @@ button {
   background-color: #1c1c20;
 }
 
+/* When buffering audio */
+.sound-cube.is-loading-audio {
+  border-color: rgba(204, 255, 0, 0.6);
+}
+
 /* Cube Top Row (Badge & Download) */
 .cube-top {
   width: 100%;
@@ -461,6 +512,20 @@ button {
   100% { transform: scale(1.08); box-shadow: 0 0 16px rgba(204, 255, 0, 0.6); }
 }
 
+/* Buffering mini spinner */
+.cube-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2.5px solid rgba(255, 255, 255, 0.2);
+  border-top-color: var(--pill-active-bg);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 /* Cube Bottom: Title and Size */
 .cube-bottom {
   width: 100%;
@@ -516,6 +581,41 @@ button {
 
 .sound-cube.is-playing .cube-waveform-bg span {
   background: var(--pill-active-bg);
+}
+
+/* ==========================================================================
+   Infinite Scroll Loader & Pagination Status
+   ========================================================================== */
+.scroll-loader {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px 0;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #71717a;
+}
+
+.scroll-loader.active {
+  display: flex;
+}
+
+.loading-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2.5px solid #e4e4e7;
+  border-top-color: #18181b;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+.pagination-footer {
+  text-align: center;
+  padding: 24px 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #a1a1aa;
 }
 
 /* Empty State */
