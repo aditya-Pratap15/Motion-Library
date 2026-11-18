@@ -651,29 +651,90 @@ button {
   z-index: 2;
 }
 
-/* Cube Middle: Visual Graphic Preview for Character PNGs */
-.cube-media-preview {
+/* ==========================================================================
+   Character Graphic Cubes - High Contrast Light Studio Theme
+   ========================================================================== */
+.sound-cube.graphic-cube {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.sound-cube.graphic-cube:hover {
+  background: #ffffff;
+  border-color: #06b6d4;
+  box-shadow: 0 12px 24px -4px rgba(6, 182, 212, 0.22);
+  transform: translateY(-3px);
+}
+
+/* Graphic Cube Inner Preview Canvas */
+.sound-cube.graphic-cube .cube-media-preview {
   width: 100%;
-  height: 64px;
+  height: 68px;
+  background-color: #f8fafc;
+  background-image: 
+    linear-gradient(45deg, #f1f5f9 25%, transparent 25%), 
+    linear-gradient(-45deg, #f1f5f9 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #f1f5f9 75%), 
+    linear-gradient(-45deg, transparent 75%, #f1f5f9 75%);
+  background-size: 10px 10px;
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2px 0;
+  margin: 3px 0;
+  padding: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.02);
   z-index: 2;
 }
 
-.cube-char-img {
+.sound-cube.graphic-cube .cube-char-img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.12));
   transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.sound-cube:hover .cube-char-img {
+.sound-cube.graphic-cube:hover .cube-char-img {
   transform: scale(1.15) translateY(-2px);
 }
-  z-index: 2;
+
+.sound-cube.graphic-cube .cube-title {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.sound-cube.graphic-cube .cube-size {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.sound-cube.graphic-cube .cube-badge {
+  background: rgba(15, 23, 42, 0.06);
+  color: #475569;
+}
+
+.sound-cube.graphic-cube .cube-info-btn {
+  border-color: rgba(15, 23, 42, 0.2);
+  color: #475569;
+}
+
+.sound-cube.graphic-cube .cube-info-btn:hover {
+  background: #0f172a;
+  color: #ffffff;
+  border-color: #0f172a;
+}
+
+.sound-cube.graphic-cube .cube-download-btn {
+  color: #64748b;
+}
+
+.sound-cube.graphic-cube .cube-download-btn:hover {
+  background: #06b6d4;
+  color: #ffffff;
 }
 
 .cube-play-btn svg {
@@ -845,23 +906,31 @@ button {
 /* Character PNG Large Visual Preview */
 .info-modal-image-wrap {
   width: 100%;
-  height: 190px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, rgba(10, 10, 12, 0.7) 100%);
+  height: 220px;
+  background-color: #f8fafc;
+  background-image: 
+    linear-gradient(45deg, #e2e8f0 25%, transparent 25%), 
+    linear-gradient(-45deg, #e2e8f0 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #e2e8f0 75%), 
+    linear-gradient(-45deg, transparent 75%, #e2e8f0 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
   border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid #e2e8f0;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
-  padding: 14px;
+  margin-bottom: 22px;
+  padding: 16px;
   overflow: hidden;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .info-modal-image {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.6));
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.18));
 }
 
 .info-modal-header {

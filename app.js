@@ -71,13 +71,12 @@ function getFilteredResources() {
  * Create a single cube DOM element
  */
 function createCubeElement(item) {
+  const isImage = item.type === 'image' || item.category === 'characters';
   const cube = document.createElement('div');
-  cube.className = 'sound-cube';
+  cube.className = isImage ? 'sound-cube graphic-cube' : 'sound-cube';
   cube.id = `cube-${item.id}`;
   cube.setAttribute('role', 'button');
   cube.setAttribute('tabindex', '0');
-
-  const isImage = item.type === 'image' || item.category === 'characters';
   cube.setAttribute('aria-label', isImage ? `View ${item.title}` : `Play ${item.title}`);
 
   const isCurrent = currentActiveItem && currentActiveItem.id === item.id;
