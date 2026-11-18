@@ -89,7 +89,10 @@ function createCubeElement(item) {
   let kindLabel = 'SFX';
   let kindClass = 'kind-sfx';
 
-  if (isImage) {
+  if (item.kind === 'GIF' || item.category === 'animated-gifs') {
+    kindLabel = 'GIF';
+    kindClass = 'kind-gif';
+  } else if (item.kind === 'PNG' || item.category === 'characters') {
     kindLabel = 'PNG';
     kindClass = 'kind-png';
   } else if (item.kind === 'BGM' || item.category === 'background-music') {
@@ -97,14 +100,18 @@ function createCubeElement(item) {
     kindClass = 'kind-bgm';
   }
 
+  const infoBtnTooltip = item.category === 'animated-gifs' 
+    ? 'Sticker Details & Editing Guide' 
+    : (isImage ? 'Character Details & Editing Guide' : 'Sound Details & Editing Guide');
+
   cube.innerHTML = `
     <div class="cube-top">
       <div class="cube-badges-group">
         <span class="cube-kind-tag ${kindClass}">${kindLabel}</span>
-        <span class="cube-badge">${item.badge || (isImage ? 'PNG' : 'AUDIO')}</span>
-        <button class="cube-info-btn" title="${isImage ? 'Character Details & Editing Guide' : 'Sound Details & Editing Guide'}" aria-label="Details">i</button>
+        <span class="cube-badge">${item.badge || (item.category === 'animated-gifs' ? 'GIF' : (isImage ? 'PNG' : 'AUDIO'))}</span>
+        <button class="cube-info-btn" title="${infoBtnTooltip}" aria-label="Details">i</button>
       </div>
-      <a class="cube-download-btn" href="${item.imageUrl || item.audioUrl || item.downloadUrl}" title="Download ${item.title}" download="${item.title}.${(item.badge || (isImage ? 'png' : 'mp3')).toLowerCase()}">
+      <a class="cube-download-btn" href="${item.imageUrl || item.audioUrl || item.downloadUrl}" title="Download ${item.title}" download="${item.title}.${(item.badge || (item.category === 'animated-gifs' ? 'gif' : (isImage ? 'png' : 'mp3'))).toLowerCase()}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
           <polyline points="7 10 12 15 17 10"></polyline>
@@ -200,7 +207,9 @@ function createCubeElement(item) {
 function openInfoModal(item) {
   modalActiveItem = item;
   const d = item.details || {};
-  const isImage = item.type === 'image' || item.category === 'characters';
+  const isGif = item.kind === 'GIF' || item.category === 'animated-gifs';
+  const isChar = !isGif && (item.kind === 'PNG' || item.category === 'characters');
+  const isImage = isGif || isChar || item.type === 'image';
   const isBGM = !isImage && (item.kind === 'BGM' || item.category === 'background-music');
 
   const infoModalImageWrap = document.getElementById('infoModalImageWrap');
@@ -213,8 +222,13 @@ function openInfoModal(item) {
       infoModalImage.src = item.imageUrl || item.downloadUrl;
     }
     if (infoKindTag) {
-      infoKindTag.textContent = '🎨 Character Cutout (PNG)';
-      infoKindTag.className = 'info-kind-tag kind-png';
+      if (isGif) {
+        infoKindTag.textContent = '✨ Animated GIF Sticker';
+        infoKindTag.className = 'info-kind-tag kind-gif';
+      } else {
+        infoKindTag.textContent = '🎨 Character Cutout (PNG)';
+        infoKindTag.className = 'info-kind-tag kind-png';
+      }
     }
     infoModalPlayBtn.style.display = 'none';
   } else {
@@ -229,17 +243,18 @@ function openInfoModal(item) {
     updateModalPlayButton();
   }
 
-  infoSoundType.textContent = d.type || (isImage ? 'Transparent Character Cutout' : (isBGM ? 'Cinematic Score / BGM' : 'Sound Effect'));
+  infoSoundType.textContent = d.type || (isGif ? 'Animated Graphic Sticker' : (isChar ? 'Transparent Character Cutout' : (isBGM ? 'Cinematic Score / BGM' : 'Sound Effect')));
   infoSoundTitle.textContent = item.title;
-  infoSoundFormat.textContent = item.format || (isImage ? 'PNG Image' : `${item.badge || 'MP3'} Audio`);
+  infoSoundFormat.textContent = item.format || (isGif ? 'GIF Animation' : (isChar ? 'PNG Image' : `${item.badge || 'MP3'} Audio`));
   infoSituation.textContent = d.situation || 'General video cuts, kinetic typography, and motion accents.';
   infoEmotion.textContent = d.emotion || 'Dynamic, Engaging';
-  infoEffects.textContent = d.effects || 'Balanced audio spectrum, crisp transient.';
+  infoEffects.textContent = d.effects || 'Balanced visual loop, crisp styling.';
   infoTip.textContent = d.editingTip || 'Sync with visual cuts or motion graphics for maximum punch.';
 
   const fileUrl = item.imageUrl || item.audioUrl || item.downloadUrl;
+  const ext = (item.badge || (isGif ? 'gif' : (isChar ? 'png' : 'mp3'))).toLowerCase();
   infoModalDlBtn.href = fileUrl;
-  infoModalDlBtn.setAttribute('download', `${item.title}.${(item.badge || (isImage ? 'png' : 'mp3')).toLowerCase()}`);
+  infoModalDlBtn.setAttribute('download', `${item.title}.${ext}`);
 
   infoModal.classList.add('active');
   document.body.style.overflow = 'hidden';
@@ -589,6 +604,7 @@ function updateCategoryCounts() {
   const countSounds = document.getElementById('count-sound-effects');
   const countMusic = document.getElementById('count-background-music');
   const countCharacters = document.getElementById('count-characters');
+  const countGifs = document.getElementById('count-animated-gifs');
 
   if (countAll) countAll.textContent = `(${allResources.length})`;
   if (countSounds) {
@@ -600,8 +616,12 @@ function updateCategoryCounts() {
     countMusic.textContent = `(${bgmCount})`;
   }
   if (countCharacters) {
-    const charCount = allResources.filter(r => r.category === 'characters' || r.type === 'image').length;
+    const charCount = allResources.filter(r => r.category === 'characters' || r.kind === 'PNG').length;
     countCharacters.textContent = `(${charCount})`;
+  }
+  if (countGifs) {
+    const gifCount = allResources.filter(r => r.category === 'animated-gifs' || r.kind === 'GIF').length;
+    countGifs.textContent = `(${gifCount})`;
   }
 }
 

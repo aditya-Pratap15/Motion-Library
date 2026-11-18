@@ -426,6 +426,11 @@ button {
   color: #22d3ee;
 }
 
+.player-kind-tag.kind-gif {
+  background: rgba(245, 158, 11, 0.25);
+  color: #fbbf24;
+}
+
 .player-badge {
   font-size: 9.5px;
   font-weight: 800;
@@ -581,6 +586,11 @@ button {
 .cube-kind-tag.kind-png {
   background: rgba(6, 182, 212, 0.2);
   color: #22d3ee;
+}
+
+.cube-kind-tag.kind-gif {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
 }
 
 .cube-badge {
@@ -969,6 +979,11 @@ button {
 .info-kind-tag.kind-png {
   background: rgba(6, 182, 212, 0.2);
   color: #22d3ee;
+}
+
+.info-kind-tag.kind-gif {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
 }
 
 .info-type-tag {
