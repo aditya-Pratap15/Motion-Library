@@ -1,11 +1,8 @@
 /**
  * ============================================================================
- * Motion Library - Instant Cube Audio Player with Drive Audio Streaming
+ * Motion Library - 100% Reliable In-Browser Audio Player & Infinite Scroll
  * ============================================================================
  */
-
-// Google Apps Script API endpoint for background sync
-const DRIVE_API_URL = "https://script.google.com/macros/s/AKfycbx9G-08mK6aRhUfiSBDL8jB--8K6jUd_wlfcRD38k2HsTVSjbJWkj_vZqPAN9M7H4PlvQ/exec";
 
 // Master resources array - loaded instantly from pre-embedded data
 let allResources = (typeof window.PRELOADED_SOUNDS !== 'undefined' && Array.isArray(window.PRELOADED_SOUNDS)) 
@@ -18,7 +15,7 @@ let currentPage = 1;
 let currentCategory = 'all';
 let searchQuery = '';
 let isLoadingMore = false;
-let currentActiveId = null;
+let currentActiveItem = null;
 
 // DOM Elements
 const resourcesGrid = document.getElementById('resourcesGrid');
@@ -29,12 +26,13 @@ const resetBtn = document.getElementById('resetBtn');
 const scrollLoader = document.getElementById('scrollLoader');
 const paginationCountText = document.getElementById('paginationCountText');
 
-// Sticky Floating Player Elements
+// Sticky Floating Bottom Player Elements
 const stickyPlayerDock = document.getElementById('stickyPlayerDock');
+const playerCard = document.querySelector('.player-card');
 const playerTitle = document.getElementById('playerTitle');
 const playerBadge = document.getElementById('playerBadge');
 const playerDownloadBtn = document.getElementById('playerDownloadBtn');
-const driveAudioFrame = document.getElementById('driveAudioFrame');
+const masterAudio = document.getElementById('masterAudio');
 const playerCloseBtn = document.getElementById('playerCloseBtn');
 
 /**
@@ -62,14 +60,17 @@ function createCubeElement(item) {
   cube.setAttribute('tabindex', '0');
   cube.setAttribute('aria-label', `Play ${item.title}`);
 
-  if (currentActiveId === item.id) {
+  const isCurrent = currentActiveItem && currentActiveItem.id === item.id;
+  const isPlaying = isCurrent && !masterAudio.paused;
+
+  if (isPlaying) {
     cube.classList.add('is-playing');
   }
 
   cube.innerHTML = `
     <div class="cube-top">
       <span class="cube-badge">${item.badge || 'AUDIO'}</span>
-      <a class="cube-download-btn" href="${item.downloadUrl}" title="Download Sound" download="${item.title}">
+      <a class="cube-download-btn" href="${item.audioUrl || item.downloadUrl}" title="Download Sound" download="${item.title}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
           <polyline points="7 10 12 15 17 10"></polyline>
@@ -78,10 +79,17 @@ function createCubeElement(item) {
       </a>
     </div>
 
-    <button class="cube-play-btn" aria-label="Play">
-      <svg viewBox="0 0 24 24" fill="currentColor">
-        <path d="M8 5v14l11-7z"/>
-      </svg>
+    <button class="cube-play-btn" aria-label="Play/Pause">
+      ${isPlaying ? `
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <rect x="6" y="5" width="4" height="14" rx="1"/>
+          <rect x="14" y="5" width="4" height="14" rx="1"/>
+        </svg>
+      ` : `
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+      `}
     </button>
 
     <div class="cube-bottom">
@@ -109,15 +117,15 @@ function createCubeElement(item) {
     e.stopPropagation();
   });
 
-  // Clicking cube plays sound through Google Drive Official Streamer
+  // Clicking cube plays sound instantly
   cube.addEventListener('click', () => {
-    playInDriveStreamer(item, cube);
+    toggleSound(item, cube);
   });
 
   cube.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      playInDriveStreamer(item, cube);
+      toggleSound(item, cube);
     }
   });
 
@@ -125,41 +133,114 @@ function createCubeElement(item) {
 }
 
 /**
- * Load sound into the official Google Drive Streamer
- * Solves all CORS & Cross-Origin-Resource-Policy browser blocks
+ * Toggle or Play Sound Instantly
  */
-function playInDriveStreamer(item, cubeEl) {
-  if (!item || !item.id) return;
+function toggleSound(item, cubeEl) {
+  if (!item) return;
+
+  // If clicked on currently active sound: toggle pause / play
+  if (currentActiveItem && currentActiveItem.id === item.id) {
+    if (masterAudio.paused) {
+      masterAudio.play().catch(e => console.warn(e));
+    } else {
+      masterAudio.pause();
+    }
+    return;
+  }
+
+  // Switch to new sound
+  currentActiveItem = item;
 
   // Un-highlight previous active cube
   document.querySelectorAll('.sound-cube.is-playing').forEach(el => {
     el.classList.remove('is-playing');
+    const b = el.querySelector('.cube-play-btn');
+    if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
   });
 
-  // Highlight this cube
-  currentActiveId = item.id;
-  if (cubeEl) cubeEl.classList.add('is-playing');
-
-  // Update sticky bottom player
+  // Update Bottom Player Dock Info
   playerTitle.textContent = item.title;
   playerBadge.textContent = item.badge || 'AUDIO';
-  playerDownloadBtn.href = item.downloadUrl;
+  playerDownloadBtn.href = item.audioUrl || item.downloadUrl;
   playerDownloadBtn.setAttribute('download', `${item.title}.${(item.badge || 'mp3').toLowerCase()}`);
 
-  // Embed official Google Drive audio preview player with audio streaming
-  const previewUrl = `https://drive.google.com/file/d/${item.id}/preview`;
-  driveAudioFrame.src = previewUrl;
+  // Set audio source: use local sounds file first, fallback to drive download URL
+  const audioSource = item.audioUrl || `sounds/${item.id}.${(item.badge || 'mp3').toLowerCase()}`;
+  masterAudio.src = audioSource;
 
-  // Reveal sticky bottom player dock
+  // Show bottom dock
   stickyPlayerDock.classList.add('active');
+
+  // Highlight current cube
+  if (cubeEl) {
+    cubeEl.classList.add('is-playing');
+    const playBtn = cubeEl.querySelector('.cube-play-btn');
+    if (playBtn) {
+      playBtn.innerHTML = `
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <rect x="6" y="5" width="4" height="14" rx="1"/>
+          <rect x="14" y="5" width="4" height="14" rx="1"/>
+        </svg>
+      `;
+    }
+  }
+
+  // Start playback immediately
+  masterAudio.play().catch(err => {
+    console.warn("Autoplay was blocked or audio error:", err);
+  });
 }
+
+/**
+ * Synchronize Master Audio Events with UI
+ */
+masterAudio.addEventListener('play', () => {
+  if (playerCard) playerCard.classList.remove('is-paused');
+  if (currentActiveItem) {
+    const activeCube = document.getElementById(`cube-${currentActiveItem.id}`);
+    if (activeCube) {
+      activeCube.classList.add('is-playing');
+      const b = activeCube.querySelector('.cube-play-btn');
+      if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>`;
+    }
+  }
+});
+
+masterAudio.addEventListener('pause', () => {
+  if (playerCard) playerCard.classList.add('is-paused');
+  if (currentActiveItem) {
+    const activeCube = document.getElementById(`cube-${currentActiveItem.id}`);
+    if (activeCube) {
+      activeCube.classList.remove('is-playing');
+      const b = activeCube.querySelector('.cube-play-btn');
+      if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+    }
+  }
+});
+
+masterAudio.addEventListener('ended', () => {
+  if (playerCard) playerCard.classList.add('is-paused');
+  if (currentActiveItem) {
+    const activeCube = document.getElementById(`cube-${currentActiveItem.id}`);
+    if (activeCube) {
+      activeCube.classList.remove('is-playing');
+      const b = activeCube.querySelector('.cube-play-btn');
+      if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+    }
+  }
+});
 
 // Close player button
 playerCloseBtn.addEventListener('click', () => {
+  masterAudio.pause();
+  masterAudio.src = '';
   stickyPlayerDock.classList.remove('active');
-  driveAudioFrame.src = 'about:blank';
-  document.querySelectorAll('.sound-cube.is-playing').forEach(el => el.classList.remove('is-playing'));
-  currentActiveId = null;
+  document.querySelectorAll('.sound-cube.is-playing').forEach(el => {
+    el.classList.remove('is-playing');
+    const b = el.querySelector('.cube-play-btn');
+    if (b) b.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+  });
+  currentActiveItem = null;
 });
 
 /**
@@ -234,7 +315,7 @@ function handleInfiniteScroll() {
       currentPage++;
       renderList(false);
       isLoadingMore = false;
-    }, 150);
+    }, 120);
   }
 }
 
@@ -291,29 +372,6 @@ function updateCategoryCounts() {
   }
 }
 
-/**
- * Silent Background Sync with Google Apps Script
- */
-async function silentBackgroundSync() {
-  try {
-    const res = await fetch(DRIVE_API_URL);
-    const json = await res.json();
-
-    if (json.status === "success" && Array.isArray(json.data) && json.data.length > 0) {
-      if (json.data.length !== allResources.length) {
-        allResources = json.data;
-        updateCategoryCounts();
-        renderList(false);
-      }
-    }
-  } catch (err) {
-    console.log("Background sync offline:", err.message);
-  }
-}
-
-// Initial 0.0s instant render
+// Initial Instant Render
 updateCategoryCounts();
 renderList(true);
-
-// Trigger silent background sync
-setTimeout(silentBackgroundSync, 1000);

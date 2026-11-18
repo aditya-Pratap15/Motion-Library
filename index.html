@@ -41,7 +41,7 @@
       <div class="container hero-container">
         <h1 class="hero-title">Browse Resources</h1>
         <p class="hero-subtitle">
-          Find, preview, and download the best high-quality royalty-free sound effects instantly.
+          Find, preview, and download 218+ high-quality royalty-free sound effects instantly.
         </p>
 
         <!-- Search Bar -->
@@ -49,7 +49,7 @@
           <input 
             type="text" 
             id="searchInput" 
-            placeholder="Search 218+ sound effects (e.g. whoosh, ding, glitch, piano)..." 
+            placeholder="Search sound effects (e.g. whoosh, ding, glitch, piano)..." 
             autocomplete="off"
             aria-label="Search resources"
           >
@@ -95,7 +95,7 @@
       </div>
     </section>
 
-    <!-- Sticky Floating Audio Player (Active when sound is clicked) -->
+    <!-- Sticky Floating Audio Player (Active when sound is played) -->
     <div class="sticky-player-dock" id="stickyPlayerDock">
       <div class="container">
         <div class="player-card">
@@ -105,24 +105,17 @@
             </div>
             <div class="player-meta">
               <span class="player-badge" id="playerBadge">MP3</span>
-              <strong class="player-title" id="playerTitle">Select a sound to play</strong>
+              <strong class="player-title" id="playerTitle">Select a sound</strong>
             </div>
           </div>
 
           <div class="player-center">
-            <!-- Google Drive Official Audio Streamer Frame -->
-            <iframe 
-              id="driveAudioFrame" 
-              src="about:blank" 
-              allow="autoplay" 
-              tabindex="-1"
-              title="Drive Audio Preview"
-            ></iframe>
+            <audio id="masterAudio" controls preload="metadata"></audio>
           </div>
 
           <div class="player-right">
             <a class="btn-player-dl" id="playerDownloadBtn" href="#" download title="Download this sound file">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                 <polyline points="7 10 12 15 17 10"></polyline>
                 <line x1="12" y1="15" x2="12" y2="3"></line>
