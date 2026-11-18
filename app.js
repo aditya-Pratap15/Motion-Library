@@ -85,9 +85,14 @@ function createCubeElement(item) {
     cube.classList.add('is-playing');
   }
 
+  const isBGM = item.kind === 'BGM' || item.category === 'background-music';
+  const kindLabel = isBGM ? 'BGM' : 'SFX';
+  const kindClass = isBGM ? 'kind-bgm' : 'kind-sfx';
+
   cube.innerHTML = `
     <div class="cube-top">
       <div class="cube-badges-group">
+        <span class="cube-kind-tag ${kindClass}">${kindLabel}</span>
         <span class="cube-badge">${item.badge || 'AUDIO'}</span>
         <button class="cube-info-btn" title="Sound Details & Editing Guide" aria-label="Details">i</button>
       </div>
@@ -169,8 +174,15 @@ function createCubeElement(item) {
 function openInfoModal(item) {
   modalActiveItem = item;
   const d = item.details || {};
+  const isBGM = item.kind === 'BGM' || item.category === 'background-music';
 
-  infoSoundType.textContent = d.type || 'Sound Effect';
+  const infoKindTag = document.getElementById('infoKindTag');
+  if (infoKindTag) {
+    infoKindTag.textContent = isBGM ? '🎵 Background Music' : '⚡ Sound Effect';
+    infoKindTag.className = `info-kind-tag ${isBGM ? 'kind-bgm' : 'kind-sfx'}`;
+  }
+
+  infoSoundType.textContent = d.type || (isBGM ? 'Cinematic Score / BGM' : 'Sound Effect');
   infoSoundTitle.textContent = item.title;
   infoSoundFormat.textContent = item.format || `${item.badge || 'MP3'} Audio`;
   infoSituation.textContent = d.situation || 'General video cuts, kinetic typography, and motion accents.';
@@ -263,6 +275,14 @@ function toggleSound(item, cubeEl) {
   // Update Bottom Player Dock Info
   playerTitle.textContent = item.title;
   playerBadge.textContent = item.badge || 'AUDIO';
+
+  const playerKindTag = document.getElementById('playerKindTag');
+  const isBGM = item.kind === 'BGM' || item.category === 'background-music';
+  if (playerKindTag) {
+    playerKindTag.textContent = isBGM ? 'BGM' : 'SFX';
+    playerKindTag.className = `player-kind-tag ${isBGM ? 'kind-bgm' : 'kind-sfx'}`;
+  }
+
   playerDownloadBtn.href = item.audioUrl || item.downloadUrl;
   playerDownloadBtn.setAttribute('download', `${item.title}.${(item.badge || 'mp3').toLowerCase()}`);
 
@@ -457,7 +477,35 @@ filterContainer.addEventListener('click', (e) => {
   targetPill.classList.add('active');
 
   currentCategory = targetPill.dataset.category;
+
+  // Sync navbar links
+  document.querySelectorAll('.nav-links .nav-link').forEach(link => {
+    link.classList.toggle('active', link.dataset.tab === currentCategory);
+  });
+
   renderList(true);
+});
+
+/**
+ * Navbar Tab Click Listener
+ */
+document.querySelectorAll('.nav-links .nav-link').forEach(navLink => {
+  navLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    const tab = navLink.dataset.tab;
+    currentCategory = tab;
+
+    // Update nav links active state
+    document.querySelectorAll('.nav-links .nav-link').forEach(l => l.classList.remove('active'));
+    navLink.classList.add('active');
+
+    // Sync filter pills active state
+    document.querySelectorAll('.filter-pill').forEach(p => {
+      p.classList.toggle('active', p.dataset.category === tab);
+    });
+
+    renderList(true);
+  });
 });
 
 /**
@@ -480,6 +528,10 @@ resetBtn.addEventListener('click', () => {
     pill.classList.toggle('active', pill.dataset.category === 'all');
   });
 
+  document.querySelectorAll('.nav-links .nav-link').forEach(l => {
+    l.classList.toggle('active', l.dataset.tab === 'all');
+  });
+
   renderList(true);
 });
 
@@ -489,11 +541,16 @@ resetBtn.addEventListener('click', () => {
 function updateCategoryCounts() {
   const countAll = document.getElementById('count-all');
   const countSounds = document.getElementById('count-sound-effects');
+  const countMusic = document.getElementById('count-background-music');
 
   if (countAll) countAll.textContent = `(${allResources.length})`;
   if (countSounds) {
-    const sfxCount = allResources.filter(r => r.category === 'sound-effects').length;
+    const sfxCount = allResources.filter(r => r.category === 'sound-effects' || r.kind === 'SFX').length;
     countSounds.textContent = `(${sfxCount})`;
+  }
+  if (countMusic) {
+    const bgmCount = allResources.filter(r => r.category === 'background-music' || r.kind === 'BGM').length;
+    countMusic.textContent = `(${bgmCount})`;
   }
 }
 

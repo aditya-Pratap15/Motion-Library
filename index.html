@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5.0">
+  <link rel="stylesheet" href="styles.css?v=7.0">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23111827'/%3E%3Cpath d='M10 28V12l10 10 10-10v16h-3.5V17.5l-6.5 6.5-6.5-6.5V28H10z' fill='white'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -29,8 +29,9 @@
       </div>
 
       <nav class="nav-links">
-        <a href="#resources" class="nav-link active">Resources</a>
-        <a href="#sound-effects" class="nav-link">Sound Effects</a>
+        <a href="#all" class="nav-link active" data-tab="all">All Resources</a>
+        <a href="#sound-effects" class="nav-link" data-tab="sound-effects">Sound Effects</a>
+        <a href="#background-music" class="nav-link" data-tab="background-music">Background Music</a>
       </nav>
     </div>
   </header>
@@ -41,7 +42,7 @@
       <div class="container hero-container">
         <h1 class="hero-title">Browse Resources</h1>
         <p class="hero-subtitle">
-          Find, preview, and download 217+ high-quality royalty-free sound effects instantly.
+          Explore 168+ sound effects and 49+ background music tracks ready for your creative videos.
         </p>
 
         <!-- Search Bar -->
@@ -49,7 +50,7 @@
           <input 
             type="text" 
             id="searchInput" 
-            placeholder="Search sound effects (e.g. whoosh, ding, glitch, piano)..." 
+            placeholder="Search sounds or music (e.g. whoosh, ding, synthwave, cinematic)..." 
             autocomplete="off"
             aria-label="Search resources"
           >
@@ -61,10 +62,17 @@
           </button>
         </div>
 
-        <!-- Filter Tags -->
+        <!-- Filter Tags Separating Sound Effects & Background Music -->
         <div class="filter-pills" id="filterContainer">
-          <button class="filter-pill" data-category="all">All <span class="filter-count" id="count-all">(217)</span></button>
-          <button class="filter-pill active" data-category="sound-effects">Sound Effects <span class="filter-count" id="count-sound-effects">(217)</span></button>
+          <button class="filter-pill active" data-category="all">
+            All <span class="filter-count" id="count-all">(217)</span>
+          </button>
+          <button class="filter-pill" data-category="sound-effects">
+            ⚡ Sound Effects <span class="filter-count" id="count-sound-effects">(168)</span>
+          </button>
+          <button class="filter-pill" data-category="background-music">
+            🎵 Background Music <span class="filter-count" id="count-background-music">(49)</span>
+          </button>
         </div>
 
         <!-- Drive Source Folder Clickable Box (Direct Link) -->
@@ -104,7 +112,10 @@
               <span></span><span></span><span></span><span></span>
             </div>
             <div class="player-meta">
-              <span class="player-badge" id="playerBadge">MP3</span>
+              <div class="player-kind-row">
+                <span class="player-kind-tag" id="playerKindTag">SFX</span>
+                <span class="player-badge" id="playerBadge">MP3</span>
+              </div>
               <strong class="player-title" id="playerTitle">Select a sound</strong>
             </div>
           </div>
@@ -114,7 +125,7 @@
           </div>
 
           <div class="player-right">
-            <a class="btn-player-dl" id="playerDownloadBtn" href="#" download title="Download this sound file">
+            <a class="btn-player-dl" id="playerDownloadBtn" href="#" download title="Download this audio file">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                 <polyline points="7 10 12 15 17 10"></polyline>
@@ -139,19 +150,19 @@
         <!-- Infinite Scroll Sentinel & Loader -->
         <div class="scroll-loader" id="scrollLoader">
           <div class="loading-spinner"></div>
-          <span>Loading more sounds...</span>
+          <span>Loading more items...</span>
         </div>
 
         <!-- End of Results / Pagination status text -->
         <div class="pagination-footer" id="paginationFooter">
-          <span id="paginationCountText">Showing 24 of 217 sounds</span>
+          <span id="paginationCountText">Showing 24 of 217 items</span>
         </div>
 
         <!-- Empty state when search has no matches -->
         <div class="empty-state" id="emptyState" style="display: none;">
           <div class="empty-icon">🔍</div>
-          <h3>No sound effects found</h3>
-          <p>Try searching for a different keyword or resetting your search</p>
+          <h3>No audio found</h3>
+          <p>Try searching for a different keyword or resetting your filter</p>
           <button class="btn-reset" id="resetBtn">Reset Search</button>
         </div>
       </div>
@@ -164,7 +175,10 @@
       <button class="info-modal-close" id="infoModalClose" aria-label="Close modal">&times;</button>
       
       <div class="info-modal-header">
-        <span class="info-type-tag" id="infoSoundType">Transition & Swell</span>
+        <div class="info-tags-row">
+          <span class="info-kind-tag" id="infoKindTag">SFX</span>
+          <span class="info-type-tag" id="infoSoundType">Transition & Swell</span>
+        </div>
         <h2 class="info-sound-title" id="infoSoundTitle">Sound Name</h2>
         <span class="info-sound-format" id="infoSoundFormat">MP3 • 45 KB</span>
       </div>
@@ -189,7 +203,7 @@
         <div class="info-detail-item">
           <div class="info-detail-label">
             <span class="info-icon">⚡</span>
-            <strong>Sound Design & Effect:</strong>
+            <strong>Sound Design & Style:</strong>
           </div>
           <p class="info-detail-text" id="infoEffects">-</p>
         </div>
@@ -223,7 +237,7 @@
   </div>
 
   <!-- Pre-embedded data for 0.0s instant offline/online load -->
-  <script src="sounds_data.js?v=5.0"></script>
-  <script src="app.js?v=5.0"></script>
+  <script src="sounds_data.js?v=7.0"></script>
+  <script src="app.js?v=7.0"></script>
 </body>
 </html>
