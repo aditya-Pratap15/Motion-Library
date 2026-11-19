@@ -124,7 +124,7 @@ function createCubeElement(item) {
   else if (item.category === 'transitions') infoBtnTooltip = 'Transition Details & Guide';
   else if (item.category === 'motion-backgrounds') infoBtnTooltip = 'Looping Backdrop Details & Guide';
 
-  const fileUrl = item.videoUrl || item.imageUrl || item.audioUrl || item.downloadUrl;
+  const fileUrl = item.videoUrl || item.audioUrl || item.driveUrl || item.imageUrl || item.downloadUrl;
   const defaultExt = isVideo ? 'mp4' : (item.category === 'animated-gifs' ? 'gif' : (isImage ? 'png' : 'mp3'));
   const ext = (item.badge || defaultExt).toLowerCase();
 
@@ -136,7 +136,7 @@ function createCubeElement(item) {
         <span class="cube-badge">${item.badge || defaultExt.toUpperCase()}</span>
         <button class="cube-info-btn" title="${infoBtnTooltip}" aria-label="Details">i</button>
       </div>
-      <a class="cube-download-btn" href="${fileUrl}" title="Download ${item.title}" download="${item.title}.${ext}">
+      <a class="cube-download-btn" href="${fileUrl}" ${fileUrl.startsWith('http') ? 'target="_blank" rel="noopener noreferrer"' : ''} title="Download ${item.title}" download="${item.title}.${ext}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
           <polyline points="7 10 12 15 17 10"></polyline>
@@ -278,7 +278,10 @@ function openInfoModal(item) {
     }
     if (infoModalImage) {
       infoModalImage.style.display = 'block';
-      infoModalImage.src = item.imageUrl || item.downloadUrl;
+      infoModalImage.onerror = function() {
+        if (this.src !== (item.cdnUrl || '') && item.cdnUrl) this.src = item.cdnUrl;
+      };
+      infoModalImage.src = item.imageUrl || item.cdnUrl || item.downloadUrl;
     }
     if (infoKindTag) {
       if (item.category === 'thumbnail-assets' || item.kind === 'THUMB') {
@@ -333,9 +336,16 @@ function openInfoModal(item) {
   infoEffects.textContent = d.effects || 'Balanced visual styling and crisp presentation.';
   infoTip.textContent = d.editingTip || 'Sync with visual cuts or motion graphics for maximum punch.';
 
-  const fileUrl = item.videoUrl || item.imageUrl || item.audioUrl || item.downloadUrl;
+  const fileUrl = item.videoUrl || item.audioUrl || item.driveUrl || item.imageUrl || item.downloadUrl;
   const ext = (item.badge || (isVideo ? 'mp4' : (isGif ? 'gif' : (isChar ? 'png' : 'mp3')))).toLowerCase();
   infoModalDlBtn.href = fileUrl;
+  if (fileUrl.startsWith('http')) {
+    infoModalDlBtn.target = '_blank';
+    infoModalDlBtn.rel = 'noopener noreferrer';
+  } else {
+    infoModalDlBtn.removeAttribute('target');
+    infoModalDlBtn.removeAttribute('rel');
+  }
   infoModalDlBtn.setAttribute('download', `${item.title}.${ext}`);
 
   infoModal.classList.add('active');
