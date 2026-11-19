@@ -6246,7 +6246,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "12S0hZCtBRTzDJlUUwKEJserv0XVLtu8b",
-    "title": "Atmospheric Smoke #01",
+    "title": "Billowing White Smoke Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6263,7 +6263,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Billowing White Smoke Cloud)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6274,7 +6274,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1HY2xyFjzmKxbD1nG3MLHG7Lzgx6UCKaU",
-    "title": "Atmospheric Smoke #02",
+    "title": "Low Lying Ground Fog Vapor",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6291,7 +6291,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Low Lying Ground Fog Vapor)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6302,7 +6302,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1bHr68UNhRfwtwy2ay1OMThb94ESmuh55",
-    "title": "Atmospheric Smoke #03",
+    "title": "Corner Drifting Smoke Wisp",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6319,7 +6319,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Corner Drifting Smoke Wisp)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6330,7 +6330,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1o9eRM9UnAulMGknQxWGpLgY81pntwA8L",
-    "title": "Atmospheric Smoke #04",
+    "title": "Mystical Smoke Tendrils Stream",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6347,7 +6347,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Mystical Smoke Tendrils Stream)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6358,7 +6358,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1N0pS3eggwH1BAkaZMk0UkdeFcWOou9pp",
-    "title": "Atmospheric Smoke #05",
+    "title": "Horizontal Floor Mist Bank",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6375,7 +6375,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Horizontal Floor Mist Bank)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6386,7 +6386,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1XDbWRq2GgyU6IHDb6H064vNktVL2S77j",
-    "title": "Atmospheric Smoke #06",
+    "title": "Left Corner Rising Steam Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6403,7 +6403,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Left Corner Rising Steam Cloud)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6414,7 +6414,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1JGLvApVjfsVPjIG-soRtx6FheI9nVqVC",
-    "title": "Atmospheric Smoke #07",
+    "title": "Drifting Center Smoke Haze",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6431,7 +6431,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Drifting Center Smoke Haze)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6442,7 +6442,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1pTMoAY_Coy1lfsq3PvjJyywIT9ENilXk",
-    "title": "Atmospheric Smoke #08",
+    "title": "Dense Ash Smoke Plume Eruption",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6459,7 +6459,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Dense Ash Smoke Plume Eruption)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6470,7 +6470,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1miTXwMjrf8ev89TxBHlFwS1MV8ej3zcu",
-    "title": "Atmospheric Smoke #09",
+    "title": "Bright Puffy Cloud Puff",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6487,7 +6487,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Bright Puffy Cloud Puff)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6498,7 +6498,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1VetWXTWu7BeWCxjglcHc6K3XH4m7dYai",
-    "title": "Atmospheric Smoke #10",
+    "title": "Scattered Wispy Storm Clouds",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6515,7 +6515,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Scattered Wispy Storm Clouds)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6526,7 +6526,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1x_TBkT4RfE1T0-l_ADyE-DaftaVObDda",
-    "title": "Atmospheric Smoke #11",
+    "title": "Dual Cumulus Cloud Formations",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6543,7 +6543,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Dual Cumulus Cloud Formations)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6554,7 +6554,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1fRY2-_JfY6ipsgnXl6SLCxh0vGVPaNlT",
-    "title": "Atmospheric Smoke #12",
+    "title": "Floating Soft Cloud Cluster",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6571,7 +6571,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Floating Soft Cloud Cluster)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6582,7 +6582,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1RDxIAlZ80RI0GUoPc3P-RaJz11o4T5B6",
-    "title": "Atmospheric Smoke #13",
+    "title": "Multi Layered Sky Cloud Streaks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6599,7 +6599,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Multi Layered Sky Cloud Streaks)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6610,7 +6610,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1JLYMaoHtpNzp6b9VFbAVzgeKsbwe37Mm",
-    "title": "Atmospheric Smoke #14",
+    "title": "Smooth Overcast Cloud Bank",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6627,7 +6627,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Smooth Overcast Cloud Bank)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6638,7 +6638,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1XjoeJTsJmoK0KAwPvzbO_A1vQ8yVXCq3",
-    "title": "Atmospheric Smoke #15",
+    "title": "Thick Atmospheric Fog Overlay",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6655,7 +6655,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Thick Atmospheric Fog Overlay)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6666,7 +6666,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1gHNKUu8hNJhjxXf5D2xfBjt7-oB5OaBY",
-    "title": "Atmospheric Smoke #16",
+    "title": "Green Toxic Swamp Mist Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6683,7 +6683,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Green Toxic Swamp Mist Cloud)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6694,7 +6694,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1LRyQRTf5eIEL9yiCpkIDa-SIXrfsmZW8",
-    "title": "Atmospheric Smoke #17",
+    "title": "Rolling Ground Smoke Barrier",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6711,7 +6711,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Rolling Ground Smoke Barrier)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6722,7 +6722,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1x95zoZRuEHMOxJthjjrjgqxlNL34uZqy",
-    "title": "Atmospheric Smoke #18",
+    "title": "Floating Asteroid Rock Debris Chunks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6739,7 +6739,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Floating Asteroid Rock Debris Chunks)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6750,7 +6750,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1hZCUzFPRECpSnQAD-873ksNWYSOMfA52",
-    "title": "Atmospheric Smoke #19",
+    "title": "Deep Green Bottom Vignette Haze",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6767,7 +6767,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Deep Green Bottom Vignette Haze)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6778,7 +6778,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1NEA3T5fiSV08_GgG7oWJfrdP76fLSNJ6",
-    "title": "Atmospheric Smoke #20",
+    "title": "Twin Exhaust Steam Plumes",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6795,7 +6795,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Twin Exhaust Steam Plumes)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6806,7 +6806,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1bGSN205oI92bEl-pxyg1gB4kCd5GBBdE",
-    "title": "Atmospheric Smoke #21",
+    "title": "Red Fiery Smoke Horizon Strip",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6823,7 +6823,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Fiery Smoke Horizon Strip)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6834,7 +6834,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "11_256nIPAZquYSkjOYRX9a6bEmxHUS3A",
-    "title": "Atmospheric Smoke #22",
+    "title": "Wide Ground Fog Barrier Line",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6851,7 +6851,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Wide Ground Fog Barrier Line)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6862,7 +6862,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1DS4HHcMYPq827GkKSjcqcAckx_vVMeK-",
-    "title": "Atmospheric Smoke #23",
+    "title": "Low Rolling White Mist Boundary",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6879,7 +6879,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Low Rolling White Mist Boundary)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6890,7 +6890,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1cjir5lKKYzfxFaUoM5wDZ8v0VDBwq0Y3",
-    "title": "Atmospheric Smoke #24",
+    "title": "Isolated White Smoke Puff",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6907,7 +6907,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Isolated White Smoke Puff)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6918,7 +6918,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1keJjtgbQwyWSxCQXgwT4HFcFMuRwALgb",
-    "title": "Atmospheric Smoke #25",
+    "title": "Horizontal Floating Steam Streak",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6935,7 +6935,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Horizontal Floating Steam Streak)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6946,7 +6946,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Vs_K9KKmHYLxajJ3AVA36F4Z0Paic9ZP",
-    "title": "Atmospheric Smoke #26",
+    "title": "Atmospheric Stage Smoke Flood",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6963,7 +6963,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Atmospheric Stage Smoke Flood)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6974,7 +6974,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1U0lrfSYrdTVgc8Kb6Osz2myby6Etw588",
-    "title": "Atmospheric Smoke #27",
+    "title": "Heavy Rolling White Fog Corner",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6991,7 +6991,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Heavy Rolling White Fog Corner)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7002,7 +7002,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1jhly_9kgiYosc9VKADf1VMTq6b-l9Rkl",
-    "title": "Atmospheric Smoke #28",
+    "title": "Dense Low Floor Smoke Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7019,7 +7019,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Dense Low Floor Smoke Cloud)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7030,7 +7030,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "14_TM9cI2GTSlGk7w_M_vaf1bhq7QkqKq",
-    "title": "Atmospheric Smoke #29",
+    "title": "Billowing White Cloud Mound",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7047,7 +7047,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Billowing White Cloud Mound)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7058,7 +7058,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "15ZxO8xstu4XaeJU9vM1yG7ghVdNUiCAU",
-    "title": "Atmospheric Smoke #30",
+    "title": "Dual Rising Smoke Puffs",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7075,7 +7075,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Dual Rising Smoke Puffs)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7086,7 +7086,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1zG_bEnLUBKjgqDAFsKSCdifFtTpdKXE7",
-    "title": "Atmospheric Smoke #31",
+    "title": "Red Tinted Embers Smoke Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7103,7 +7103,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Tinted Embers Smoke Cloud)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7114,7 +7114,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1FlWgATednjW5BCpoAhEfJy75CpkMJUNP",
-    "title": "Atmospheric Smoke #32",
+    "title": "Compact White Smoke Cloudlet",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7131,7 +7131,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Compact White Smoke Cloudlet)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7142,7 +7142,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1JDKPYVxrX-cBRYjLmtiJ-GdBxSDMWIRX",
-    "title": "Atmospheric Smoke #33",
+    "title": "Thin Horizontal Steam Wisp",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7159,7 +7159,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Thin Horizontal Steam Wisp)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7170,7 +7170,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1QyKEUbGucs2MWGRPpe2SK3-uwwUWzNr8",
-    "title": "Atmospheric Smoke #34",
+    "title": "Low Drifting Steam Vapor Streak",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7187,7 +7187,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Low Drifting Steam Vapor Streak)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7198,7 +7198,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1xZSOWe9hEKZMJt8oAZhuAdqMQUrIfw3Y",
-    "title": "Atmospheric Smoke #35",
+    "title": "Hanging Ceiling Mist Puff",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7215,7 +7215,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Hanging Ceiling Mist Puff)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7226,7 +7226,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1DKV6zZc46MgQUjtFKlwvMqRx93fC99Tm",
-    "title": "Atmospheric Smoke #36",
+    "title": "Floating Elongated Smoke Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7243,7 +7243,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Floating Elongated Smoke Cloud)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7254,7 +7254,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1q1ApvBxEnNPy-m-ZXX_mVtq8a4m0sIi3",
-    "title": "Atmospheric Smoke #37",
+    "title": "Ground Steam Vapor Line",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7271,7 +7271,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Ground Steam Vapor Line)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7282,7 +7282,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Nl8iyHj7ryx6Ot7e0Gr2TSnd_iiy66mc",
-    "title": "Atmospheric Smoke #38",
+    "title": "Soft Pink Atmospheric Dust Puff",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7299,7 +7299,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Soft Pink Atmospheric Dust Puff)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7310,7 +7310,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1RUB15oq6EJoijq2YuOwEqRl7NDpE6fRe",
-    "title": "Atmospheric Smoke #39",
+    "title": "Symmetrical Smoke Explosion Burst",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7327,7 +7327,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Symmetrical Smoke Explosion Burst)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7338,7 +7338,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1SoUvV_A6RizHzxB7E0Aawlr6yMmbAOYf",
-    "title": "Atmospheric Smoke #40",
+    "title": "Wispy Ghost Vapor Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7355,7 +7355,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Wispy Ghost Vapor Cloud)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7366,7 +7366,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1t_M0ptwK-vcP-eZ4Z4MggkACMir-Vws3",
-    "title": "Atmospheric Smoke #41",
+    "title": "Rising Dense Cloud Puff",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7383,7 +7383,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Rising Dense Cloud Puff)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7394,7 +7394,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1K1ZgbvYc7UNLFitPEt7oFtt7RcDyNAAX",
-    "title": "Atmospheric Smoke #42",
+    "title": "Elongated Ground Fog Streak",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7411,7 +7411,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Elongated Ground Fog Streak)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7422,7 +7422,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1VPluMyaYsv-ulwkOKQleS6MSAbDsQpWN",
-    "title": "Atmospheric Smoke #43",
+    "title": "Magenta Pink Colored Smoke Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7439,7 +7439,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Smoke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Smoke)",
+      "type": "YouTube Thumbnail Graphic Asset (Magenta Pink Colored Smoke Cloud)",
       "situation": "High-resolution transparent smoke plumes, steam wisps, and fog overlays for dramatic mystery, power, and depth.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
