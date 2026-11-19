@@ -7450,7 +7450,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1kBttlpKArppHAvH17gUPNfEG0zvsfZ7c",
-    "title": "Brush Stroke #01",
+    "title": "White Electric Plasma Ball",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7467,7 +7467,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (White Electric Plasma Ball)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7478,7 +7478,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1abfRLPG52WtgOOrjiaui082nVdrumCSs",
-    "title": "Brush Stroke #02",
+    "title": "Curved Blue Light Streak Swoosh",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7495,7 +7495,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Curved Blue Light Streak Swoosh)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7506,7 +7506,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1w7J0Z9WorAIhyNI4eovbwq_OabetduiL",
-    "title": "Brush Stroke #03",
+    "title": "White Misty Smoke Veil",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7523,7 +7523,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (White Misty Smoke Veil)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7534,7 +7534,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1d_E2p-DpBuaD9V5DQ4yBD9is_OqDrVJq",
-    "title": "Brush Stroke #04",
+    "title": "Orange Neon Ember Curve Streak",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7551,7 +7551,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Orange Neon Ember Curve Streak)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7562,7 +7562,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1IQ9BxbHbwYjYrMULsBe1mi3YcO9ySeGA",
-    "title": "Brush Stroke #05",
+    "title": "Cyan Energy Star Ring Flare",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7579,7 +7579,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Cyan Energy Star Ring Flare)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7590,7 +7590,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "15oVTfK7b6Jzu2oY5uL9IuTyKvQKoRQzE",
-    "title": "Brush Stroke #06",
+    "title": "Magenta Anime Speed Impact Lines",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7607,7 +7607,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Magenta Anime Speed Impact Lines)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7618,7 +7618,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1B_xgoab4Ej9p3eviM3sqlzeuu5WEHK5U",
-    "title": "Brush Stroke #07",
+    "title": "Golden Sparkle Particle Wave",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7635,7 +7635,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden Sparkle Particle Wave)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7646,7 +7646,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "13lpGnsnh2F-ns7t-WwvlEmNcCiBDnAO3",
-    "title": "Brush Stroke #08",
+    "title": "Blue Comic Action Speed Burst",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7663,7 +7663,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Blue Comic Action Speed Burst)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7674,7 +7674,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "11NeSCuIQYyIJna9XxGoZFjsvaLkZliTG",
-    "title": "Brush Stroke #09",
+    "title": "Golden Bokeh Particle Arch Cluster",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7691,7 +7691,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden Bokeh Particle Arch Cluster)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7702,7 +7702,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1ic9N4VTIGODvme6f4LgBbGNxvwVTz0B_",
-    "title": "Brush Stroke #10",
+    "title": "Lime Green Anime Impact Lines",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7719,7 +7719,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Lime Green Anime Impact Lines)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7730,7 +7730,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Ygco3pBw9phOGgbaYPaloiO4Iq1jSGys",
-    "title": "Brush Stroke #11",
+    "title": "Blazing Roaring Flame Border",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7747,7 +7747,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Blazing Roaring Flame Border)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7758,7 +7758,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1zR-iUnKjGzBnMuF3Nl9UcqMdPs7_Y73N",
-    "title": "Brush Stroke #12",
+    "title": "Halftone Polka Dot Matrix Pattern",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7775,7 +7775,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Halftone Polka Dot Matrix Pattern)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7786,7 +7786,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Pb6SbJhKI3KMZQGRJIyrE5x3IkOP_Fvt",
-    "title": "Brush Stroke #13",
+    "title": "White Square Frame Outline Border",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7803,7 +7803,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (White Square Frame Outline Border)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7814,7 +7814,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1x8_2Uop7eiNMedjDiOXs48xmRx7kE6IF",
-    "title": "Brush Stroke #14",
+    "title": "Purple Starlight Cross Optical Glint",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7831,7 +7831,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Purple Starlight Cross Optical Glint)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7842,7 +7842,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1wWLgmxBqtBcsjMfCry2YWhDfSJB6FKZ8",
-    "title": "Brush Stroke #15",
+    "title": "Red Zigzag Lightning Bolt",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7859,7 +7859,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Zigzag Lightning Bolt)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7870,7 +7870,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1vyheyiTY0q8dadockZTziQaLMH3Psmuk",
-    "title": "Brush Stroke #16",
+    "title": "Neon Magenta Vertical Rain Streaks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7887,7 +7887,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Neon Magenta Vertical Rain Streaks)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7898,7 +7898,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1gUO5LTrh7c9YvV5Bgu7VuZtPllHBYOjb",
-    "title": "Brush Stroke #17",
+    "title": "Diagonal Cyan Lightning Strike",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7915,7 +7915,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Diagonal Cyan Lightning Strike)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7926,7 +7926,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1IH-NR79gqcflHZZGpLlBaPRyxUawWXnx",
-    "title": "Brush Stroke #18",
+    "title": "Red Fiery Spark Embers Eruption",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7943,7 +7943,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Fiery Spark Embers Eruption)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7954,7 +7954,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1UaeTgmh8AnejnvcGe59Rmoup_s4E_v5Q",
-    "title": "Brush Stroke #19",
+    "title": "Fiery Burning Fireball Orb",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7971,7 +7971,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Fiery Burning Fireball Orb)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -7982,7 +7982,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "10-Awvm7GhWvBC2V4wO8A4myi1p0omCUw",
-    "title": "Brush Stroke #20",
+    "title": "Golden Yellow Spark Fountain",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7999,7 +7999,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden Yellow Spark Fountain)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8010,7 +8010,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1_F50ZX6J6UfEW4hy0hP7i2TctEeg05cn",
-    "title": "Brush Stroke #21",
+    "title": "Purple Floating Dust Galaxy",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8027,7 +8027,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Purple Floating Dust Galaxy)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8038,7 +8038,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1p9DgOLuJoQRUAmGUax9VCC1419w_6VkL",
-    "title": "Brush Stroke #22",
+    "title": "Red Floor Glow with Floating Sparks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8055,7 +8055,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Floor Glow with Floating Sparks)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8066,7 +8066,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "14yhnBKRtNTobVOAgEkzELhe1kS0N1nBU",
-    "title": "Brush Stroke #23",
+    "title": "Amber Fire Embers Bottom Border",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8083,7 +8083,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Amber Fire Embers Bottom Border)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8094,7 +8094,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1VbUpwzwOoaLZQ9UfQ5hFdOC-uBt7Vr-V",
-    "title": "Brush Stroke #24",
+    "title": "Soft Purple Floating Bokeh Lights",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8111,7 +8111,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Soft Purple Floating Bokeh Lights)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8122,7 +8122,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1td4um9zMyBhGhWIR1oGFtqeLFnmjJFP_",
-    "title": "Brush Stroke #25",
+    "title": "Monochrome White Floating Dust Motes",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8139,7 +8139,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Monochrome White Floating Dust Motes)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8150,7 +8150,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "152hlcTUxE5eO4E1ifqHSuKF53Jj7B6rP",
-    "title": "Brush Stroke #26",
+    "title": "Dense White Starfield Dust Specks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8167,7 +8167,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Dense White Starfield Dust Specks)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8178,7 +8178,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1kXJyhRg-oQLuhaDzrcC09UpG0W5sbuOv",
-    "title": "Brush Stroke #27",
+    "title": "Blue Warp Speed Starfield Streaks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8195,7 +8195,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Blue Warp Speed Starfield Streaks)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8206,7 +8206,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1dF9qS8iGCox14ILdQYxapuKHE7CnHuBz",
-    "title": "Brush Stroke #28",
+    "title": "Red Glowing Diagonal Light Slash",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8223,7 +8223,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Glowing Diagonal Light Slash)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8234,7 +8234,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1VqwdxrAS7i9e5yNar9jGJhGmO_8OPBpS",
-    "title": "Brush Stroke #29",
+    "title": "Golden Electric Shockwave Cross",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8251,7 +8251,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden Electric Shockwave Cross)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8262,7 +8262,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1CmcEOR1MlwUPW4HgbKNycpOrJZ8gMC3P",
-    "title": "Brush Stroke #30",
+    "title": "Golden X-Shaped Lightning Burst",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8279,7 +8279,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden X-Shaped Lightning Burst)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8290,7 +8290,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1OEOyxWggoIxeEUAqr9ch3afhLZsQ5ges",
-    "title": "Brush Stroke #31",
+    "title": "Horizontal Roaring Fire Stream",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8307,7 +8307,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Horizontal Roaring Fire Stream)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8318,7 +8318,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1NT9l_StLlA5bmiXFgF96KkLpk16l4yjR",
-    "title": "Brush Stroke #32",
+    "title": "Red Plasma Starburst Discharge",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8335,7 +8335,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Plasma Starburst Discharge)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8346,7 +8346,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1O1ye6fj7DZ9N57eFYyEN6GU2_99aApnx",
-    "title": "Brush Stroke #33",
+    "title": "Upward Shooting Fire Tornado Column",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8363,7 +8363,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Upward Shooting Fire Tornado Column)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8374,7 +8374,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Bmyn-tS26R7FYUC84Vh7_oi3vMgMSyuT",
-    "title": "Brush Stroke #34",
+    "title": "Subtle Red Chevron Speed Sparks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8391,7 +8391,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Subtle Red Chevron Speed Sparks)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8402,7 +8402,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Cs4ndFNBoS7W8ZNHEaPKQj_tV4xGcgLx",
-    "title": "Brush Stroke #35",
+    "title": "Red Fiery Electric Impact Center",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8419,7 +8419,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Fiery Electric Impact Center)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8430,7 +8430,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "15UsqW-jQAGb9hWgcASbtF4gj9ugFSusQ",
-    "title": "Brush Stroke #36",
+    "title": "Twin Angled Yellow Lightning Sparks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8447,7 +8447,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Twin Angled Yellow Lightning Sparks)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8458,7 +8458,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1kDfuGAPl8lcxPvhTNA97RK95aAFMXT59",
-    "title": "Brush Stroke #37",
+    "title": "Tiny Yellow Electric Lightning Spark",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8475,7 +8475,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Tiny Yellow Electric Lightning Spark)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8486,7 +8486,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "13as3mZ3O8kG6mFUM-AkSsfMuVH9KVC9o",
-    "title": "Brush Stroke #38",
+    "title": "Yellow Halftone Dot Vignette Frame",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8503,7 +8503,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Yellow Halftone Dot Vignette Frame)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8514,7 +8514,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1l4_yrs9sx7ZHF6de0baepOR3df14LKcu",
-    "title": "Brush Stroke #39",
+    "title": "Golden Diagonal Stage Light Beams",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8531,7 +8531,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden Diagonal Stage Light Beams)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8542,7 +8542,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1-o8Af-I2DwKSC1shet0vS1xBuX10qqJa",
-    "title": "Brush Stroke #40",
+    "title": "Purple Smoke Vignette Border Frame",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8559,7 +8559,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Purple Smoke Vignette Border Frame)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8570,7 +8570,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1TLqe7wpC4X5vGxU6wXp2vqm_lFHsjPg_",
-    "title": "Brush Stroke #41",
+    "title": "Soft White Circular Light Glow",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8587,7 +8587,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Soft White Circular Light Glow)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8598,7 +8598,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1P1XbEJhnus33TztCA2Puv6aR5LlDvOd2",
-    "title": "Brush Stroke #42",
+    "title": "Pink Neon Laser Horizon Line",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8615,7 +8615,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Pink Neon Laser Horizon Line)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8626,7 +8626,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1vJGw9kfwN_NHzHWzLVZYP4s_lDeVXfKD",
-    "title": "Brush Stroke #43",
+    "title": "Spiral Yellow Dotted Light Ribbon",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8643,7 +8643,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Spiral Yellow Dotted Light Ribbon)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8654,7 +8654,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1zyeMufI1OD-40lNFi248VzfAutqi9yPu",
-    "title": "Brush Stroke #44",
+    "title": "Soft Magenta Nebula Cloud Smudge",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8671,7 +8671,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Soft Magenta Nebula Cloud Smudge)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8682,7 +8682,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1rkC5O7zqmTV43atLfqTOREpF_pWtsQdM",
-    "title": "Brush Stroke #45",
+    "title": "Green Laser Horizontal Light Strip",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8699,7 +8699,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Green Laser Horizontal Light Strip)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8710,7 +8710,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1-LTLOTVAfBN1bHjIn_KW3kQF2PJUC6xc",
-    "title": "Brush Stroke #46",
+    "title": "Blue Electric Neural Plasma Veins",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8727,7 +8727,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Blue Electric Neural Plasma Veins)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8738,7 +8738,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "12gOOjRbym42OIgf98yDpuF6gwYT8u60I",
-    "title": "Brush Stroke #47",
+    "title": "Cyan Mystical Energy Smoke Waves",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8755,7 +8755,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Cyan Mystical Energy Smoke Waves)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8766,7 +8766,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Kv60IxwqVtpJfBxHJPveIucHKLAaK-Y6",
-    "title": "Brush Stroke #48",
+    "title": "Monochrome White Speed Warp Burst",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8783,7 +8783,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Monochrome White Speed Warp Burst)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8794,7 +8794,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1BzT2InMNmk5ak4ZgOajBeJWMPaSOIygE",
-    "title": "Brush Stroke #49",
+    "title": "Emerald Green Liquid Plasma Waves",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8811,7 +8811,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Emerald Green Liquid Plasma Waves)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -8822,7 +8822,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1GAmkErAyoOXioPyLbrxWX7Ma_1ZfW6HP",
-    "title": "Brush Stroke #50",
+    "title": "Colorful Floating Crystal Gems Cluster",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8839,7 +8839,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail stroke",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail stroke)",
+      "type": "YouTube Thumbnail Graphic Asset (Colorful Floating Crystal Gems Cluster)",
       "situation": "Bold expressive paint strokes, highlighter streaks, and marker highlights to underline titles and highlight thumbnail keywords.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
