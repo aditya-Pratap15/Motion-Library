@@ -3446,7 +3446,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1rLgyeenFO41n0DmBwWvVVQa4N0ubPPS6",
-    "title": "Creator Overlay #01",
+    "title": "Green Energy Smoke Vortex",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3463,7 +3463,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Green Energy Smoke Vortex)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3474,7 +3474,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1sAD7cnFxSmNtG-oB2tn8FqE66u7jW5aL",
-    "title": "Creator Overlay #02",
+    "title": "Volcanic Lava Cracks Texture",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3491,7 +3491,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Volcanic Lava Cracks Texture)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3502,7 +3502,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Y6OCr0QwG5TG0f2KSZZ4Vxf5JSLMaE_1",
-    "title": "Creator Overlay #03",
+    "title": "Dual Red and Purple Energy Portals",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3519,7 +3519,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Dual Red and Purple Energy Portals)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3530,7 +3530,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1aQXtT-idp303Cq6BhmTunu8iUz6o_DoC",
-    "title": "Creator Overlay #04",
+    "title": "Black Honeycomb Mesh Grid Texture",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3547,7 +3547,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Black Honeycomb Mesh Grid Texture)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3558,7 +3558,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "12lESUbWH2z0xmiII4ehZ9kbXd2Mtwpcn",
-    "title": "Creator Overlay #05",
+    "title": "Black and White Optical Illusion Spiral",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3575,7 +3575,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Black and White Optical Illusion Spiral)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3586,7 +3586,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1sukCLq_MMIgY0d0BumIE35oO-yHUn0Ml",
-    "title": "Creator Overlay #06",
+    "title": "Rainbow Holographic Prism Folds",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3603,7 +3603,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Rainbow Holographic Prism Folds)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3614,7 +3614,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1gygcO4zEaoAmQe2ARiho1IdT94UvaN-x",
-    "title": "Creator Overlay #07",
+    "title": "Fiery Red Light Whirlpool Vortex",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3631,7 +3631,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Fiery Red Light Whirlpool Vortex)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3642,7 +3642,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1mKH1uZ1zs7YDBYqaiPCuuEMDJaS6KdHt",
-    "title": "Creator Overlay #08",
+    "title": "Neon Geometric Light Ring Tunnel",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3659,7 +3659,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Neon Geometric Light Ring Tunnel)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3670,7 +3670,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1zThjG2d-7xSkVXHdwo4A_1e7kiEf0-m9",
-    "title": "Creator Overlay #09",
+    "title": "Dark Curved Carbon Fiber Texture",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3687,7 +3687,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Dark Curved Carbon Fiber Texture)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3698,7 +3698,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1qX6BWsfKt0RIC6MCFJhqLAvu795bk2mn",
-    "title": "Creator Overlay #10",
+    "title": "Red Chevron Stage Light Background",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3715,7 +3715,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Chevron Stage Light Background)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3726,7 +3726,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1B-vqgj1Ym9VTMSnyxvBLd6UyFVprSXGH",
-    "title": "Creator Overlay #11",
+    "title": "Dark Topographic Wave Wireframe",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3743,7 +3743,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Dark Topographic Wave Wireframe)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3754,7 +3754,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "15NgLhXjyHMCLSLHI5IW2GN6NVmc-Srsp",
-    "title": "Creator Overlay #12",
+    "title": "Lime Green Hourglass Light Curves",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3771,7 +3771,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Lime Green Hourglass Light Curves)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3782,7 +3782,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Qn0Ob6hEoQInDLUNeG7F1Bo6V0MZtP3D",
-    "title": "Creator Overlay #13",
+    "title": "Fractal Nautilus Shell Spiral",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3799,7 +3799,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Fractal Nautilus Shell Spiral)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3810,7 +3810,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1GNWttdT8mdy3yWmdCiCl8HaDS43cAsVn",
-    "title": "Creator Overlay #14",
+    "title": "Cosmic Nebula Starfield Dust Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3827,7 +3827,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Cosmic Nebula Starfield Dust Cloud)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3838,7 +3838,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "18UR8dfo2g5qQYgXllsWSfR_reaDn3leW",
-    "title": "Creator Overlay #15",
+    "title": "Golden Yellow Dot Matrix Perspective Wave",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3855,7 +3855,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden Yellow Dot Matrix Perspective Wave)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3866,7 +3866,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Y3euQECj1tE-J5pHb4TuM2vU_M2hvzbb",
-    "title": "Creator Overlay #16",
+    "title": "Xenomorph Alien Dual Neon Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3883,7 +3883,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Xenomorph Alien Dual Neon Cutout)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3894,7 +3894,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1SBTO2GVJsteAFgFWcNeNI8Vx5s8L9suw",
-    "title": "Creator Overlay #17",
+    "title": "Fiery Burning Flame Border Frame",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3911,7 +3911,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Fiery Burning Flame Border Frame)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3922,7 +3922,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "17oFRdG5eaKSbiDOxMEMDyHbvmdKILBRP",
-    "title": "Creator Overlay #18",
+    "title": "Psychedelic Liquid Plasma Whirlpool",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3939,7 +3939,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Psychedelic Liquid Plasma Whirlpool)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3950,7 +3950,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1z19r2pnPJ48U7flMUYLYO4Dk7VVoIlZr",
-    "title": "Creator Overlay #19",
+    "title": "Floating Astronaut Spacewalk Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3967,7 +3967,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Floating Astronaut Spacewalk Cutout)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3978,7 +3978,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1H-3hNClqrrOpgsjVTtHPF_4SJwHELPOA",
-    "title": "Creator Overlay #20",
+    "title": "Tactical Hunting Knife Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3995,7 +3995,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Tactical Hunting Knife Cutout)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4006,7 +4006,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1wamqxN4hbDnuvh57lT-5GX2c6fNL3ED6",
-    "title": "Creator Overlay #21",
+    "title": "Full Moon Crater Surface Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4023,7 +4023,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Full Moon Crater Surface Cutout)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4034,7 +4034,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1bBG_tnSzmgOo9lmeBtOIj1yHJC6kt6NS",
-    "title": "Creator Overlay #22",
+    "title": "Lunar Moon Surface Crater Terrain",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4051,7 +4051,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Lunar Moon Surface Crater Terrain)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4062,7 +4062,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "153BX3ewWbAshvkpswJ0rlTnE0tBhxaKc",
-    "title": "Creator Overlay #23",
+    "title": "Rocky Mountain Ledge Cliff Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4079,7 +4079,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Rocky Mountain Ledge Cliff Cutout)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4090,7 +4090,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Zzb6eXtt-VEhCeCh6DxfrS-CiLQHTsk3",
-    "title": "Creator Overlay #24",
+    "title": "Cracked Gray Stone Texture",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4107,7 +4107,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Cracked Gray Stone Texture)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4118,7 +4118,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1bP-0f21GpOTXxONWqrqxnyEfcySszLRB",
-    "title": "Creator Overlay #25",
+    "title": "Cracked Dry Desert Earth Landscape",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4135,7 +4135,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Cracked Dry Desert Earth Landscape)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4146,7 +4146,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1SdgqeYIM5-AYiCToCDtqrY5AdxCY98Ej",
-    "title": "Creator Overlay #26",
+    "title": "Radial Violet Light Rays Fan",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4163,7 +4163,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Radial Violet Light Rays Fan)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4174,7 +4174,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1KugNgsF8uLn5krxD0PTU2nuR4WGEHm-8",
-    "title": "Creator Overlay #27",
+    "title": "Red Curved Spiral Blades",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4191,7 +4191,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Curved Spiral Blades)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4202,7 +4202,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "14Z3hUDVmLQ6DBkg5J0KPgQLBrvGbEB3K",
-    "title": "Creator Overlay #28",
+    "title": "Green Electrical Plasma Lightning Veins",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4219,7 +4219,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Green Electrical Plasma Lightning Veins)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4230,7 +4230,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1-MiuXru6nyzS1E62Oq9Yxt9hlOy5isYn",
-    "title": "Creator Overlay #29",
+    "title": "Fresh Green Grass Blade Border",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4247,7 +4247,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Fresh Green Grass Blade Border)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4258,7 +4258,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1wmLJSg39bDSb6RP8vq7C5a5VGebeSRvO",
-    "title": "Creator Overlay #30",
+    "title": "Lush Green Grass Field Foreground",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4275,7 +4275,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Lush Green Grass Field Foreground)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4286,7 +4286,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1gCR9EEdZhTkIaf31xk1eoEEmAOc6QvA9",
-    "title": "Creator Overlay #31",
+    "title": "Red Neural Plasma Lightning Veins",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4303,7 +4303,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Neural Plasma Lightning Veins)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4314,7 +4314,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Hlo_NG7FQ_vwO9MPNUVthRSLwsdwXzfF",
-    "title": "Creator Overlay #32",
+    "title": "Green Grassy Mound Hill Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4331,7 +4331,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Green Grassy Mound Hill Cutout)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4342,7 +4342,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1KNKXLwESTOd7uVMh_wm6yLRH157NU7yt",
-    "title": "Creator Overlay #33",
+    "title": "Monochrome Pinwheel Vortex Pattern",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4359,7 +4359,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Monochrome Pinwheel Vortex Pattern)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4370,7 +4370,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1OEMuuwnOMvTbsrSKnfpx3hoTfF5jGlQb",
-    "title": "Creator Overlay #34",
+    "title": "Orange Camouflage Splatter Pattern",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4387,7 +4387,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Orange Camouflage Splatter Pattern)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4398,7 +4398,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "16qmILQyJNz4B0YL0M2g4kXROJAM6ee21",
-    "title": "Creator Overlay #35",
+    "title": "Emerald Green Ink Splatter Texture",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4415,7 +4415,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Emerald Green Ink Splatter Texture)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4426,7 +4426,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "129mxgbuthWIMiVmsPKcG4jW4iFwV-mh1",
-    "title": "Creator Overlay #36",
+    "title": "Natural Stone Boulders with Grass Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4443,7 +4443,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Natural Stone Boulders with Grass Cutout)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4454,7 +4454,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1uFvhMV3vCPURAkXDD6cnghzE472dDyWt",
-    "title": "Creator Overlay #37",
+    "title": "Warm Amber Lens Flare Bokeh Leaks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4471,7 +4471,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Warm Amber Lens Flare Bokeh Leaks)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4482,7 +4482,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1EKImxcdrkaUg5HIevGWnfgPkkkgrWDvp",
-    "title": "Creator Overlay #38",
+    "title": "Futuristic Holographic Cyberspace HUD",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4499,7 +4499,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Futuristic Holographic Cyberspace HUD)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4510,7 +4510,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1QzcIqYLsyo_l51kkW9V8Z8236J503-sY",
-    "title": "Creator Overlay #39",
+    "title": "Cyberpunk Neon Grid Stage Lights",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4527,7 +4527,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Cyberpunk Neon Grid Stage Lights)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4538,7 +4538,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1NPfl9gf1HR9lRpATFiH69fleqSGgcmdW",
-    "title": "Creator Overlay #40",
+    "title": "Cyan and Purple Neon Light Squiggles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4555,7 +4555,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Cyan and Purple Neon Light Squiggles)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4566,7 +4566,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Fcg_He4QMo-Zryk9DDG-V8etqYOYy_Yf",
-    "title": "Creator Overlay #41",
+    "title": "Blue Geometric Plexus Constellation",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4583,7 +4583,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Blue Geometric Plexus Constellation)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4594,7 +4594,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1-exKrV5vJdkANN8U_DD0e143ctmrqolz",
-    "title": "Creator Overlay #42",
+    "title": "Starry Galaxy Dust Field with Planet Glow",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4611,7 +4611,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Starry Galaxy Dust Field with Planet Glow)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4622,7 +4622,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1djm7zQLwnYQx3BnTmrnXbPegRZIWie8R",
-    "title": "Creator Overlay #43",
+    "title": "Hyperspace White Star Motion Streaks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4639,7 +4639,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Hyperspace White Star Motion Streaks)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4650,7 +4650,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1p3Bs7W0VcDj4NZhx7cT-gF35EktcA213",
-    "title": "Creator Overlay #44",
+    "title": "Sparkling Silver Bokeh Light Orbs",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4667,7 +4667,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Sparkling Silver Bokeh Light Orbs)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4678,7 +4678,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1-MbOER1v-ThIqEZqZ_xFwiGWXbjQvztj",
-    "title": "Creator Overlay #45",
+    "title": "Crumpled Rainbow Iridescent Foil",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4695,7 +4695,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Crumpled Rainbow Iridescent Foil)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4706,7 +4706,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Yz8Etd4hI0-8nK4_p5Ss4zzFYaDqkGA9",
-    "title": "Creator Overlay #46",
+    "title": "Holographic Chrome Liquid Sheen",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4723,7 +4723,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Holographic Chrome Liquid Sheen)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4734,7 +4734,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1V24Hc9FsR4Z2ZuxGFJix2rz3ZjvK6-vD",
-    "title": "Creator Overlay #47",
+    "title": "Prismatic Pastel Holographic Foil",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4751,7 +4751,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Prismatic Pastel Holographic Foil)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4762,7 +4762,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1QBopKQ8iS0wR0-2m0aK4znMo-BWFXvUV",
-    "title": "Creator Overlay #48",
+    "title": "Dramatic Black Mountain Crag Peak",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4779,7 +4779,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Dramatic Black Mountain Crag Peak)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4790,7 +4790,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "13Y88UJAt2hV0G3OJZW1qPjRJREV024D8",
-    "title": "Creator Overlay #49",
+    "title": "Flowing White Particle Ribbon Wave",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4807,7 +4807,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Flowing White Particle Ribbon Wave)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4818,7 +4818,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1gENsy7_05k0TMBUx9hG06skD7kdhg6vB",
-    "title": "Creator Overlay #50",
+    "title": "Violet Cosmic Dust Ember Cluster",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4835,7 +4835,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Overlays",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Overlays)",
+      "type": "YouTube Thumbnail Graphic Asset (Violet Cosmic Dust Ember Cluster)",
       "situation": "Composite overlay textures, dust, scratches, grunge, and vignettes to give thumbnails tactile cinematic grit and polish.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
