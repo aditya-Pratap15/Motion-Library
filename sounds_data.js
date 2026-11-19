@@ -2718,7 +2718,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1F4NQ6v7hwIMB7ibUSQckUDQqh25qjAEi",
-    "title": "Thumbnail Material #01",
+    "title": "Yellow Anime Speed Lines Frame",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2735,7 +2735,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Yellow Anime Speed Lines Frame)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2746,7 +2746,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1U_jUf0VZVZmTXGlbI3IWhl3jNtifRMSM",
-    "title": "Thumbnail Material #02",
+    "title": "Meta Monetization Stats Card",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2763,7 +2763,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Meta Monetization Stats Card)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2774,7 +2774,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "15TOfAlI4hXVM2sBA1F0qkLemfRK5DqbU",
-    "title": "Thumbnail Material #03",
+    "title": "Curved Yellow Pointing Arrow",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2791,7 +2791,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Curved Yellow Pointing Arrow)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2802,7 +2802,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1HkSTrzBuX43D5_SS2fURPxZVCCA67r5-",
-    "title": "Thumbnail Material #04",
+    "title": "Followers and Watch Minutes Metric Card",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2819,7 +2819,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Followers and Watch Minutes Metric Card)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2830,7 +2830,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1slhYdrBQvZwhyiBSR-XX3H-Z34FPJ8oV",
-    "title": "Thumbnail Material #05",
+    "title": "Cyan Anime Speed Lines Frame",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2847,7 +2847,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Cyan Anime Speed Lines Frame)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2858,7 +2858,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1g7RoHDGOkEqV0EpXI9mnYcYz6-JSPY3b",
-    "title": "Thumbnail Material #06",
+    "title": "Curved White Lower Third Banner",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2875,7 +2875,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Curved White Lower Third Banner)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2886,7 +2886,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1i9CD6pQCFHlUwxQsstfIvUEuvz_HOjw4",
-    "title": "Thumbnail Material #07",
+    "title": "Instagram Reels Logo Badge",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2903,7 +2903,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Instagram Reels Logo Badge)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2914,7 +2914,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1WshiilIM8voFQVI9DM7rWau379hBX-f4",
-    "title": "Thumbnail Material #08",
+    "title": "Horizontal Ripped Paper Border",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2931,7 +2931,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Horizontal Ripped Paper Border)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2942,7 +2942,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1FcWXR53_n5Pf_Ua9JfGqOqPSCZ4KyCmX",
-    "title": "Thumbnail Material #09",
+    "title": "Vertical Torn Paper Edge",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2959,7 +2959,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Vertical Torn Paper Edge)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2970,7 +2970,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1HSc6igXfdTqPuLdq8JvQTybu8F_b3kA9",
-    "title": "Thumbnail Material #10",
+    "title": "Rolled Architectural Blueprints Icon",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -2987,7 +2987,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Rolled Architectural Blueprints Icon)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -2998,7 +2998,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "14D5qw4c1DbxM4lAHKbibXTtCSnLZfBcV",
-    "title": "Thumbnail Material #11",
+    "title": "Blazing Ring of Fire Frame",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3015,7 +3015,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Blazing Ring of Fire Frame)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3026,7 +3026,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1vEv5HH0XpIeKudinwesf-_22TEaRcb37",
-    "title": "Thumbnail Material #12",
+    "title": "Green Circular Dollar Money Icon",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3043,7 +3043,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Green Circular Dollar Money Icon)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3054,7 +3054,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1A9Pv7aDEx1cuz4cqACbhoo0QutNAN_Dy",
-    "title": "Thumbnail Material #13",
+    "title": "Smartphone Screen Mockup Frame",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3071,7 +3071,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Smartphone Screen Mockup Frame)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3082,7 +3082,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1WSainggBZeeHEfzttqYG9hRx7b6mUZS4",
-    "title": "Thumbnail Material #14",
+    "title": "Red 3D Curved Pointer Arrow",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3099,7 +3099,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Red 3D Curved Pointer Arrow)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3110,7 +3110,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1E1om-mTrj50MHHvxuR1K8sXt0QYwaIl0",
-    "title": "Thumbnail Material #15",
+    "title": "Stopwatch Completed Timer Icon",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3127,7 +3127,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Stopwatch Completed Timer Icon)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3138,7 +3138,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1ZQhadfsfgl4hGkNSN4fwCwCkxridcrrV",
-    "title": "Thumbnail Material #16",
+    "title": "Grunge Speckle Dirt Texture",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3155,7 +3155,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Grunge Speckle Dirt Texture)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3166,7 +3166,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "101A6jhxLbfTu6knBz3StkuvqS9d0GLNE",
-    "title": "Thumbnail Material #17",
+    "title": "Wrinkled White Paper Texture",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3183,7 +3183,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Wrinkled White Paper Texture)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3194,7 +3194,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1MbfFor53cQfUbVl_AQSPIYtTYAFq6EYv",
-    "title": "Thumbnail Material #18",
+    "title": "Stressed Crying Emoji Face",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3211,7 +3211,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Stressed Crying Emoji Face)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3222,7 +3222,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1m3CwpLW3gbbS2c3lkIWh3Fkv_A_w1mFb",
-    "title": "Thumbnail Material #19",
+    "title": "2M+ Views Red Ribbon Badge",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3239,7 +3239,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (2M+ Views Red Ribbon Badge)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3250,7 +3250,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1AWqwRqyRZzJyiBAtcYCYXKOS2a4Jn3fm",
-    "title": "Thumbnail Material #20",
+    "title": "Curved Upward Growth Arrow",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3267,7 +3267,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Curved Upward Growth Arrow)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3278,7 +3278,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "16oVaefB6eYxf25H7KzeC-VUyFG37CyOu",
-    "title": "Thumbnail Material #21",
+    "title": "Magenta Radial Sunburst Background",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3295,7 +3295,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Magenta Radial Sunburst Background)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3306,7 +3306,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1CjiUSjpzKrjKDVzmpbtbKquco82qfG2R",
-    "title": "Thumbnail Material #22",
+    "title": "Businessman Pointing Forward Illustration",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3323,7 +3323,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Businessman Pointing Forward Illustration)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3334,7 +3334,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1njX29HSN5Bz9LXbOPXA3-Ok8smPcD5sN",
-    "title": "Thumbnail Material #23",
+    "title": "Red Left Pointing Arrow",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3351,7 +3351,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Left Pointing Arrow)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3362,7 +3362,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Y1i7WpoHteMBd20HpnBWe1w9KTqBi6uJ",
-    "title": "Thumbnail Material #24",
+    "title": "Smooth Upward Trend Arrow",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3379,7 +3379,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Smooth Upward Trend Arrow)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3390,7 +3390,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1s0YpSwyTXDmvxUoDQlE_P3c3B1zDkdmT",
-    "title": "Thumbnail Material #25",
+    "title": "Bold Upward Growth Arc Arrow",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3407,7 +3407,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Bold Upward Growth Arc Arrow)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -3418,7 +3418,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "19h4TKf5VvAlK92i9WMD7-BgbK-dGnYiM",
-    "title": "Thumbnail Material #26",
+    "title": "Smiling Young Man Thumbs Up Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -3435,7 +3435,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail Materials 😉",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail Materials 😉)",
+      "type": "YouTube Thumbnail Graphic Asset (Smiling Young Man Thumbs Up Cutout)",
       "situation": "Universal creator thumbnail overlays, high-contrast badges, shapes, and textured graphics for clean professional layouts.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
