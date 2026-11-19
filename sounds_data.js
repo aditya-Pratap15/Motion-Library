@@ -2,7 +2,7 @@
  * Pre-embedded sound, graphic, and video resources for Motion Library
  * Total Resources: 1180
  * High-speed local zero-lag playback, preview, and download
- * Includes YouTube Thumbnail Assets (595 items across 14 categories)
+ * Includes YouTube Thumbnail Assets (595 items across 14 categories with descriptive Emoji names)
  */
 window.PRELOADED_SOUNDS = [
   {
@@ -6895,7 +6895,7 @@ window.PRELOADED_SOUNDS = [
   },
   {
     "id": "1UCvQPXUE_FvOiVBU7H-XK2jUljavfiou",
-    "title": "Expressive Emoji #01",
+    "title": "Desktop Monitor (iMac) Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6912,18 +6912,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Desktop Monitor (iMac) Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245737886.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Desktop Monitor (iMac) Emoji"
     }
   },
   {
     "id": "1r7DtubSjvYVYi3fPJNg50Q_dk-GwluB3",
-    "title": "Expressive Emoji #02",
+    "title": "European Union Flag Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6940,18 +6941,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (European Union Flag Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245737906.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "European Union Flag Emoji"
     }
   },
   {
     "id": "1JHHGRrvQyd2H15L_h2SwKW63A1l62EKH",
-    "title": "Expressive Emoji #03",
+    "title": "Red Backpack School Bag Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6968,18 +6970,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Red Backpack School Bag Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245737923.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Red Backpack School Bag Emoji"
     }
   },
   {
     "id": "1i0ukpUw9NyywpRbuESaYHPf-oH-opJae",
-    "title": "Expressive Emoji #04",
+    "title": "Diamond Gemstone Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6996,18 +6999,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Diamond Gemstone Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245737939.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Diamond Gemstone Emoji"
     }
   },
   {
     "id": "1BupqNZB65fWKRs6Y2UsWlKNmIiIgT55a",
-    "title": "Expressive Emoji #05",
+    "title": "Rocket Launch Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7024,18 +7028,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Rocket Launch Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245737969.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Rocket Launch Emoji"
     }
   },
   {
     "id": "1P-g-YgBwyK722HxInDPDlzxSPBKQOYle",
-    "title": "Expressive Emoji #06",
+    "title": "Raising Hands Celebration Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7052,18 +7057,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Raising Hands Celebration Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245737989.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Raising Hands Celebration Emoji"
     }
   },
   {
     "id": "1WtjzAEv1o_Epgw-5ldcG-W-yI7IreGzE",
-    "title": "Expressive Emoji #07",
+    "title": "Staring Blank Face Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7080,18 +7086,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Staring Blank Face Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738011.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Staring Blank Face Emoji"
     }
   },
   {
     "id": "176RlgcDRQKJaBxclAPKL8FZhKBZvyaw-",
-    "title": "Expressive Emoji #08",
+    "title": "Ocean Wave (Tsunami) Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7108,18 +7115,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Ocean Wave (Tsunami) Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738034.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Ocean Wave (Tsunami) Emoji"
     }
   },
   {
     "id": "1kXzey11jznkk1VULkWpST99wDUmu6tny",
-    "title": "Expressive Emoji #09",
+    "title": "Dashing Speed Dust Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7136,18 +7144,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Dashing Speed Dust Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738052.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Dashing Speed Dust Emoji"
     }
   },
   {
     "id": "1NXQ9SEF2jN_MS_6Q6kxdNWum4kYJ3XUv",
-    "title": "Expressive Emoji #10",
+    "title": "Flushed Shocked Face Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7164,18 +7173,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Flushed Shocked Face Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738075.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Flushed Shocked Face Emoji"
     }
   },
   {
     "id": "16gQP3KdTrFWjZhT0WsVI8KhY7Qxo4oK3",
-    "title": "Expressive Emoji #11",
+    "title": "Studio Headphones Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7192,18 +7202,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Studio Headphones Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738101.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Studio Headphones Emoji"
     }
   },
   {
     "id": "1w3cX_gpyOARSa7GT2PRr9wX4brerx3Yi",
-    "title": "Expressive Emoji #12",
+    "title": "User Profile Silhouette Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7220,18 +7231,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (User Profile Silhouette Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738120.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "User Profile Silhouette Emoji"
     }
   },
   {
     "id": "1il-DuTD5c7Un2e4kwf1qnlKWy5eQbC_6",
-    "title": "Expressive Emoji #13",
+    "title": "Volleyball Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7248,18 +7260,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Volleyball Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738145.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Volleyball Emoji"
     }
   },
   {
     "id": "1LjwMYv0e68AtJe9ipsiHOoMyQFN41Kev",
-    "title": "Expressive Emoji #14",
+    "title": "Pile of Poo Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7276,18 +7289,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Pile of Poo Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738167.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Pile of Poo Emoji"
     }
   },
   {
     "id": "1w8aPsMryj1_A3SP8kyKFUXaj47cZ2V3P",
-    "title": "Expressive Emoji #15",
+    "title": "Face with Rolling Eyes Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7304,18 +7318,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Face with Rolling Eyes Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738186.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Face with Rolling Eyes Emoji"
     }
   },
   {
     "id": "1j6IFkP0h35MLF_6szTMDYki85dtkVpC7",
-    "title": "Expressive Emoji #16",
+    "title": "Italy Flag Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7332,18 +7347,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Italy Flag Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738204.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Italy Flag Emoji"
     }
   },
   {
     "id": "1DS1ufBN-ufMlTPVCY-t6Sq8rsUuCgJgY",
-    "title": "Expressive Emoji #17",
+    "title": "Two Users Silhouette Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7360,18 +7376,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Two Users Silhouette Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738223.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Two Users Silhouette Emoji"
     }
   },
   {
     "id": "1uSBWUK_nzIZ5W6JSKp6xni5Ois4xINGV",
-    "title": "Expressive Emoji #18",
+    "title": "People Hugging Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7388,18 +7405,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (People Hugging Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738242.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "People Hugging Emoji"
     }
   },
   {
     "id": "1AcVN2-HCR9bOajvt3OudZ8zwHhO8t9oA",
-    "title": "Expressive Emoji #19",
+    "title": "Full Moon Face Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7416,18 +7434,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Full Moon Face Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738260.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Full Moon Face Emoji"
     }
   },
   {
     "id": "1CT_2WsvRv3VgE1r6SRyOP8gH68osSllz",
-    "title": "Expressive Emoji #20",
+    "title": "Loudly Crying Face Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7444,18 +7463,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Loudly Crying Face Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738276.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Loudly Crying Face Emoji"
     }
   },
   {
     "id": "14xQOwKH7hHDSHBvG_jkb76Xoq0mibkMw",
-    "title": "Expressive Emoji #21",
+    "title": "Hundred Points (100) Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7472,18 +7492,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Hundred Points (100) Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738293.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Hundred Points (100) Emoji"
     }
   },
   {
     "id": "1KmMQc86opfoO7fSUOFZJgNlEIpbKbkQu",
-    "title": "Expressive Emoji #22",
+    "title": "Movie Clapperboard Slate Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7500,18 +7521,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Movie Clapperboard Slate Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738313.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Movie Clapperboard Slate Emoji"
     }
   },
   {
     "id": "1fMTPBjCAgu3SW1xwg7eeveuOp6azeVio",
-    "title": "Expressive Emoji #23",
+    "title": "Unicorn Face Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7528,18 +7550,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Unicorn Face Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738341.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Unicorn Face Emoji"
     }
   },
   {
     "id": "1cijZRg0MPOPsW7EBP4YqRc5kRc_e2F6H",
-    "title": "Expressive Emoji #24",
+    "title": "Cursing Angry Face Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7556,18 +7579,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Cursing Angry Face Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738360.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Cursing Angry Face Emoji"
     }
   },
   {
     "id": "1ldGeaxdqSwB1kpXOORmCt5BW-t6czQ_T",
-    "title": "Expressive Emoji #25",
+    "title": "Explosion Starburst Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7584,18 +7608,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Explosion Starburst Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738386.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Explosion Starburst Emoji"
     }
   },
   {
     "id": "1Oce9F1XMz7hAdIzgO6ptDtPPpBB7Rk7R",
-    "title": "Expressive Emoji #26",
+    "title": "France Flag Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7612,18 +7637,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (France Flag Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738414.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "France Flag Emoji"
     }
   },
   {
     "id": "1QaSQmARVZmHHyXSNG7TJ20D2bbIyOMpc",
-    "title": "Expressive Emoji #27",
+    "title": "Fluttering Autumn Leaves Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7640,18 +7666,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Fluttering Autumn Leaves Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738450.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Fluttering Autumn Leaves Emoji"
     }
   },
   {
     "id": "1kZwR7QG37lUPMpy6WMDo5xeMZ6nvkk9X",
-    "title": "Expressive Emoji #28",
+    "title": "Japan Flag Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7668,18 +7695,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Japan Flag Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738474.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Japan Flag Emoji"
     }
   },
   {
     "id": "1tTDM5YUyzc5hGBXnyrD-c27KZ-FW1W08",
-    "title": "Expressive Emoji #29",
+    "title": "Mind Blown Exploding Head Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7696,18 +7724,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Mind Blown Exploding Head Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738510.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Mind Blown Exploding Head Emoji"
     }
   },
   {
     "id": "1dubfJEyDrVetUMjX1kW6RkxmfazwF2uw",
-    "title": "Expressive Emoji #30",
+    "title": "Industrial Factory Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7724,18 +7753,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Industrial Factory Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738528.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Industrial Factory Emoji"
     }
   },
   {
     "id": "1bvhsRPMchCgW1xCmPIWmzm2lCmEJEl7H",
-    "title": "Expressive Emoji #31",
+    "title": "Pleading Puppy Eyes Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7752,18 +7782,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Pleading Puppy Eyes Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738548.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Pleading Puppy Eyes Emoji"
     }
   },
   {
     "id": "193rNCGIV4gFO8_V3MlCznyGrgWqh5Qew",
-    "title": "Expressive Emoji #32",
+    "title": "Laughing with Tears (ROFL) Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7780,18 +7811,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Laughing with Tears (ROFL) Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738565.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Laughing with Tears (ROFL) Emoji"
     }
   },
   {
     "id": "1v_CRJxQ6pGzCFHUEIJ6WHV_YjEE0nRtW",
-    "title": "Expressive Emoji #33",
+    "title": "Settings Gear Cog Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7808,18 +7840,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Settings Gear Cog Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738583.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Settings Gear Cog Emoji"
     }
   },
   {
     "id": "1AIXkXkc1QmA3V6GIEvLRZwRH1G1JDOVN",
-    "title": "Expressive Emoji #34",
+    "title": "Agreement Handshake Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7836,18 +7869,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Agreement Handshake Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738605.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Agreement Handshake Emoji"
     }
   },
   {
     "id": "1AUh2oDDimEgtCKCyT1z_pXsAqSZ3DjQs",
-    "title": "Expressive Emoji #35",
+    "title": "Popping Champagne Cork Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7864,18 +7898,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Popping Champagne Cork Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738622.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Popping Champagne Cork Emoji"
     }
   },
   {
     "id": "1I2k4oZJM51BJTYIik1gAOnkTPbA4U4ZH",
-    "title": "Expressive Emoji #36",
+    "title": "Gaming Controller Gamepad Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7892,18 +7927,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Gaming Controller Gamepad Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738640.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Gaming Controller Gamepad Emoji"
     }
   },
   {
     "id": "1e8deR-uEzoGwh89PlDbk1d52gt4JJTdc",
-    "title": "Expressive Emoji #37",
+    "title": "Snail Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7920,18 +7956,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Snail Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738661.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Snail Emoji"
     }
   },
   {
     "id": "1lZcHnN3pNq8FmZt-uU-iIOqAKzngSXS0",
-    "title": "Expressive Emoji #38",
+    "title": "Red Rose Flower Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7948,18 +7985,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Red Rose Flower Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738685.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Red Rose Flower Emoji"
     }
   },
   {
     "id": "1yM89OBSenE62H3cqjUDqfu_1JEVpguW6",
-    "title": "Expressive Emoji #39",
+    "title": "Facepalming Man Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -7976,18 +8014,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Facepalming Man Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738713.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Facepalming Man Emoji"
     }
   },
   {
     "id": "1EEphcSw4-U7IKqsYCDxFbRRfNffUGOmv",
-    "title": "Expressive Emoji #40",
+    "title": "Spooky Ghost with Tongue Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8004,18 +8043,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Spooky Ghost with Tongue Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738736.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Spooky Ghost with Tongue Emoji"
     }
   },
   {
     "id": "1qniFVfMhV9v2mgWclJbXPZ-J4rM4GJ40",
-    "title": "Expressive Emoji #41",
+    "title": "Classic Leather Oxford Shoe Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8032,18 +8072,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Classic Leather Oxford Shoe Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738754.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Classic Leather Oxford Shoe Emoji"
     }
   },
   {
     "id": "12pLE78taLVEkFFtU6gc0Lp_KqpYyHoiL",
-    "title": "Expressive Emoji #42",
+    "title": "Winter Snowflake Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8060,18 +8101,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Winter Snowflake Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738775.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Winter Snowflake Emoji"
     }
   },
   {
     "id": "1NpRrqx62V1ZTU4hy2uFbxbuIZAMvN7Rd",
-    "title": "Expressive Emoji #43",
+    "title": "Furious Red Angry Face Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8088,18 +8130,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Furious Red Angry Face Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738793.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Furious Red Angry Face Emoji"
     }
   },
   {
     "id": "13BMWck1wBssDe7hCtJJXVflYnaRhbbrv",
-    "title": "Expressive Emoji #44",
+    "title": "Decorated Christmas Tree Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8116,18 +8159,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Decorated Christmas Tree Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738814.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Decorated Christmas Tree Emoji"
     }
   },
   {
     "id": "1v5mYTWgm8OHb6MMmEf6OWW4sSDLrF1en",
-    "title": "Expressive Emoji #45",
+    "title": "Speak-No-Evil Monkey Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8144,18 +8188,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Speak-No-Evil Monkey Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738831.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Speak-No-Evil Monkey Emoji"
     }
   },
   {
     "id": "1hRFpVXYA1qH-LaUhoOqvbXxjo8FMisqh",
-    "title": "Expressive Emoji #46",
+    "title": "Person Shrugging (IDK) Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8172,18 +8217,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Person Shrugging (IDK) Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738852.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Person Shrugging (IDK) Emoji"
     }
   },
   {
     "id": "1m0TCg4vPZeopVB8PSnQm2LK-pENQg14K",
-    "title": "Expressive Emoji #47",
+    "title": "Emergency Siren Flashing Light Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8200,18 +8246,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Emergency Siren Flashing Light Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738870.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Emergency Siren Flashing Light Emoji"
     }
   },
   {
     "id": "1ICEbBTfEYVGSU-XzoQYH84RKX6s__400",
-    "title": "Expressive Emoji #48",
+    "title": "Frosted Chocolate Donut Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8228,18 +8275,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Frosted Chocolate Donut Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738888.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Frosted Chocolate Donut Emoji"
     }
   },
   {
     "id": "1ACeJWipPMIjRwAJ0Gp3pNGqwmnv7BqYz",
-    "title": "Expressive Emoji #49",
+    "title": "Wide Smile Grinning Face Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8256,18 +8304,19 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Wide Smile Grinning Face Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738907.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Wide Smile Grinning Face Emoji"
     }
   },
   {
     "id": "1yNzVwc2vFUjWZbe0lMVdzzw1UIXHumCi",
-    "title": "Expressive Emoji #50",
+    "title": "Cardboard Package Delivery Box Emoji",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -8284,13 +8333,14 @@ window.PRELOADED_SOUNDS = [
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail emojis😜",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail emojis😜)",
-      "situation": "Transparent 3D and stylized reaction emojis to communicate emotion, shock, hype, and humor in thumbnails and short-form video pop-ups.",
-      "emotion": "High Contrast, Click-Optimized, Creator Grade",
+      "type": "YouTube Thumbnail Emoji Asset (Cardboard Package Delivery Box Emoji)",
+      "situation": "High-CTR YouTube thumbnails, visual reaction pop-ups, dynamic talking-head overlays, and bold creator graphics.",
+      "emotion": "Expressive, Eye-Catching, Studio 3D Cutout",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
-      "editingTip": "Set blend mode to Screen, Linear Dodge (Add), or Color Dodge in Premiere Pro, Photoshop, or DaVinci Resolve. Use Drop Shadow for PNG sticker pop.",
+      "editingTip": "Place as an accent sticker over video timeline or Photoshop canvas. Add subtle drop shadow or white stroke for maximum contrast against dark or busy backgrounds.",
       "fileName": "1717245738926.png",
-      "folder": "Thumbnail emojis😜"
+      "folder": "Thumbnail emojis😜",
+      "emojiName": "Cardboard Package Delivery Box Emoji"
     }
   },
   {
