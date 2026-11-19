@@ -4846,7 +4846,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1nCEj0ht19kQ5wah93NRAm4oPcmirkN-P",
-    "title": "Ambient Particle #01",
+    "title": "Deep Blue Glitter Dust Sparkles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4863,7 +4863,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Deep Blue Glitter Dust Sparkles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4874,7 +4874,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1EeYqd-WdpUqCoTloP446FzauuXaFCPVs",
-    "title": "Ambient Particle #02",
+    "title": "Purple Energy Particle Ribbons",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4891,7 +4891,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Purple Energy Particle Ribbons)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4902,7 +4902,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1D8doHTsg_-RoxU5cKGqibl93umTrVldC",
-    "title": "Ambient Particle #03",
+    "title": "Dark Dust Edge Vignette Overlay",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4919,7 +4919,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Dark Dust Edge Vignette Overlay)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4930,7 +4930,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1dJMELc00HTYe5W24NMlRKFPStRLwuELq",
-    "title": "Ambient Particle #04",
+    "title": "Multicolor Floating Bokeh Particles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4947,7 +4947,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Multicolor Floating Bokeh Particles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4958,7 +4958,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "17ANW_-Kr5OrSeK9GtqziZLWPUVX5ZtwF",
-    "title": "Ambient Particle #05",
+    "title": "White Water Splash Spray Particles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -4975,7 +4975,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (White Water Splash Spray Particles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -4986,7 +4986,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1XtJAfm6T8YKvJmxba-GwapHPnJjjooHY",
-    "title": "Ambient Particle #06",
+    "title": "Warm Golden Bokeh Orb Flurry",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5003,7 +5003,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Warm Golden Bokeh Orb Flurry)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5014,7 +5014,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1sW5A50VJywCxGs11h9LcDgA4bCHcx4kI",
-    "title": "Ambient Particle #07",
+    "title": "Circular Holographic HUD Target Reticle",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5031,7 +5031,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Circular Holographic HUD Target Reticle)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5042,7 +5042,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1RqgcI61gq8OzKumlXxKs7MpUfYMTMl5N",
-    "title": "Ambient Particle #08",
+    "title": "Shimmering Gold Glitter Rain",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5059,7 +5059,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Shimmering Gold Glitter Rain)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5070,7 +5070,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1TiKcRCRvDJbFgPUhIb6aEv0N_CmmXXmn",
-    "title": "Ambient Particle #09",
+    "title": "Fine Floating Ambient Dust Specks",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5087,7 +5087,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Fine Floating Ambient Dust Specks)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5098,7 +5098,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1WtbTDG2iVG6pXLlMxnZgmp8GefSpMHQk",
-    "title": "Ambient Particle #10",
+    "title": "Red Crystal Glass Ribbon Shards",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5115,7 +5115,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Red Crystal Glass Ribbon Shards)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5126,7 +5126,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1gZlnIXCefJyIQzcFA_rqDLjpEKAYZDmH",
-    "title": "Ambient Particle #11",
+    "title": "Pile of Metallic Skulls Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5143,7 +5143,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Pile of Metallic Skulls Cutout)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5154,7 +5154,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1CYY6MjRetzHwGg2DJd0cJ_QykxldzrAZ",
-    "title": "Ambient Particle #12",
+    "title": "Molten Lava Energy Orbs",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5171,7 +5171,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Molten Lava Energy Orbs)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5182,7 +5182,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1pJh0x0g1N3YVxQsv-RSAwi9MX90ECmYm",
-    "title": "Ambient Particle #13",
+    "title": "Drifting White Smoke Particle Cluster",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5199,7 +5199,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Drifting White Smoke Particle Cluster)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5210,7 +5210,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Zy1YJXMxqIoZZlMhKH5reNJEuZsHLPPu",
-    "title": "Ambient Particle #14",
+    "title": "Electric Blue Portal Light Arc",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5227,7 +5227,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Electric Blue Portal Light Arc)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5238,7 +5238,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1F9j0Anxlr94IOv6SYRobuq33J0wU8wqt",
-    "title": "Ambient Particle #15",
+    "title": "Cyan Nebula Energy Dust Tendril",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5255,7 +5255,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Cyan Nebula Energy Dust Tendril)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5266,7 +5266,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1bvGHHaxB0AWjH60aTLV3JNMtriie707d",
-    "title": "Ambient Particle #16",
+    "title": "High Speed Blue Lightning Streak",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5283,7 +5283,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (High Speed Blue Lightning Streak)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5294,7 +5294,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1v0sAFEKNRmun3Q19aJzySPqpMPzofm1F",
-    "title": "Ambient Particle #17",
+    "title": "Dense White Smoke Burst Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5311,7 +5311,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Dense White Smoke Burst Cloud)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5322,7 +5322,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1aRfWnoWcSmWgPRbg8HT6E5nr3FThakRr",
-    "title": "Ambient Particle #18",
+    "title": "Vibrant Neon Bokeh Particle Orbs",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5339,7 +5339,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Vibrant Neon Bokeh Particle Orbs)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5350,7 +5350,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1bd6Ek-E6aHPWWi65CHILe6g-m6n8XeRt",
-    "title": "Ambient Particle #19",
+    "title": "Blue Glowing Cyber Vortex Logo",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5367,7 +5367,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Blue Glowing Cyber Vortex Logo)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5378,7 +5378,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1uzLGJGZ500l3PsUrkMN0pcB_2CNdp25O",
-    "title": "Ambient Particle #20",
+    "title": "Explosive Golden Spark Embers",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5395,7 +5395,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Explosive Golden Spark Embers)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5406,7 +5406,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1HiJmjEyLRSqmpO2xwky5rZInxSo2DluV",
-    "title": "Ambient Particle #21",
+    "title": "Floating White Star Dust Motes",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5423,7 +5423,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Floating White Star Dust Motes)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5434,7 +5434,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1cJXmE8mFs6XAZdM8oD07Obbb2EQWdlju",
-    "title": "Ambient Particle #22",
+    "title": "Purple Cosmic Stardust Horizon Band",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5451,7 +5451,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Purple Cosmic Stardust Horizon Band)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5462,7 +5462,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1KF0BO63r4Zdfp1asT-63mIPQJ6W4GO_M",
-    "title": "Ambient Particle #23",
+    "title": "Gravitational Black Hole Vortex Tunnel",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5479,7 +5479,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Gravitational Black Hole Vortex Tunnel)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5490,7 +5490,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1f4jugqMRyw11buQSO_pL3-SxZjfuD0Wn",
-    "title": "Ambient Particle #24",
+    "title": "Blue Neon Heartbeat Pulse Waveform",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5507,7 +5507,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Blue Neon Heartbeat Pulse Waveform)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5518,7 +5518,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1qX6rpxCiCUKcRQxsUhmHWVux5XkoOcQF",
-    "title": "Ambient Particle #25",
+    "title": "Soft Dark Floating Bokeh Particles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5535,7 +5535,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Soft Dark Floating Bokeh Particles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5546,7 +5546,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1C98g1lZSv0Pqv7ABM4vD17EXv_NHk7iB",
-    "title": "Ambient Particle #26",
+    "title": "Magical Magenta Glowing Light Orbs",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5563,7 +5563,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Magical Magenta Glowing Light Orbs)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5574,7 +5574,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1G7g9QraXnrljH9B-NfsFqGOiycA4L4nM",
-    "title": "Ambient Particle #27",
+    "title": "Fiery Ember Starburst Flare",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5591,7 +5591,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Fiery Ember Starburst Flare)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5602,7 +5602,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1ZZ9qyTY4w6vCTAQcEgNzpB5j0howcUT6",
-    "title": "Ambient Particle #28",
+    "title": "Celestial Gold Nebula Dust Haze",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5619,7 +5619,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Celestial Gold Nebula Dust Haze)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5630,7 +5630,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1tyA90xaGVEuhzVloQpdQ71i_3aj0N8iE",
-    "title": "Ambient Particle #29",
+    "title": "Water Crown Splash Impact Cutout",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5647,7 +5647,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Water Crown Splash Impact Cutout)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5658,7 +5658,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1xCOo7IWaimmQBE3jnM1AR-DxJCmmiAQV",
-    "title": "Ambient Particle #30",
+    "title": "Blue Stardust Stream Particles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5675,7 +5675,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Blue Stardust Stream Particles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5686,7 +5686,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Npfg63kTSWOnPucGinnKIvmxe_OWDxew",
-    "title": "Ambient Particle #31",
+    "title": "Vertical Cyan Lightning Bolt Discharge",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5703,7 +5703,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Vertical Cyan Lightning Bolt Discharge)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5714,7 +5714,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "11gK_vjlhCFA6KE5Fuv9A2otUWgw3YVmS",
-    "title": "Ambient Particle #32",
+    "title": "Deep Blue Galaxy Star Sparkles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5731,7 +5731,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Deep Blue Galaxy Star Sparkles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5742,7 +5742,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1lyCkGC2k2ruzn8bd6hXfB9hb1_M0Rhh9",
-    "title": "Ambient Particle #33",
+    "title": "Soft Ambient White Dust Haze",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5759,7 +5759,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Soft Ambient White Dust Haze)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5770,7 +5770,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1YFhezrK2nz4ieWHdKL1vmKJaTl7pRSar",
-    "title": "Ambient Particle #34",
+    "title": "Pink and Cyan Cosmic Nebula Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5787,7 +5787,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Pink and Cyan Cosmic Nebula Cloud)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5798,7 +5798,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "17E427IwY4neAg6eVL022EH5Mc7fAQuwP",
-    "title": "Ambient Particle #35",
+    "title": "Shimmering Starry Sparkle Cluster",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5815,7 +5815,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Shimmering Starry Sparkle Cluster)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5826,7 +5826,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1Y42Vug886bPN11HcIuQpjKPie84TFn-c",
-    "title": "Ambient Particle #36",
+    "title": "Intense Blue Electrical Storm Nexus",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5843,7 +5843,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Intense Blue Electrical Storm Nexus)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5854,7 +5854,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "12oGWo4pKlcv6oAdJ97hTyWNzDkETGPmT",
-    "title": "Ambient Particle #37",
+    "title": "Atmospheric Dark Smoke Haze",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5871,7 +5871,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Atmospheric Dark Smoke Haze)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5882,7 +5882,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1C3_4ML0FOOqiHlFdOKz4RX63g9YHWYzR",
-    "title": "Ambient Particle #38",
+    "title": "Floating Golden Question Mark Particles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5899,7 +5899,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Floating Golden Question Mark Particles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5910,7 +5910,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1_UScOHBTjJN2REW-i9Y_Hj2xIk12yXdq",
-    "title": "Ambient Particle #39",
+    "title": "Rising Campfire Ember Sparks Border",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5927,7 +5927,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Rising Campfire Ember Sparks Border)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5938,7 +5938,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1KNc7C1oIGfGb1PtyAsHtYFxNZ0or5NhF",
-    "title": "Ambient Particle #40",
+    "title": "Neon Green Biohazard Light Orbs",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5955,7 +5955,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Neon Green Biohazard Light Orbs)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5966,7 +5966,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1nk9CnwNPuRKHfNIy78O77ZLFbNpqtitW",
-    "title": "Ambient Particle #41",
+    "title": "Subtle Red Floating Dust Particles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -5983,7 +5983,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Subtle Red Floating Dust Particles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -5994,7 +5994,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "14vFzGPuDu3gBvN0H0NrSdgEuNfxhdmdx",
-    "title": "Ambient Particle #42",
+    "title": "Deep Blue Energy Flame Swirl",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6011,7 +6011,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Deep Blue Energy Flame Swirl)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6022,7 +6022,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1eLpfo0nN3NCOQJ2lW7SHtu7j2J-_XBQy",
-    "title": "Ambient Particle #43",
+    "title": "Sparkling White Diamond Bokeh Cluster",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6039,7 +6039,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Sparkling White Diamond Bokeh Cluster)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6050,7 +6050,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "11FttpyA5k06CekaJ00qcsAM5M92GyKwV",
-    "title": "Ambient Particle #44",
+    "title": "Prismatic Rainbow Cosmic Aurora Cloud",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6067,7 +6067,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Prismatic Rainbow Cosmic Aurora Cloud)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6078,7 +6078,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1qtjiqXgPOg3pnacVDh8LyUH443JRhJ2V",
-    "title": "Ambient Particle #45",
+    "title": "Golden Amber Particle Top Border",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6095,7 +6095,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden Amber Particle Top Border)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6106,7 +6106,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1_GIKWuKeLwCxvTYNZxu_YTCqLMqNDpti",
-    "title": "Ambient Particle #46",
+    "title": "Toxic Green Radioactive Bubbles",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6123,7 +6123,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Toxic Green Radioactive Bubbles)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6134,7 +6134,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "111KyL5Tug73TmgoBUC9V_ioGpxtCcVMw",
-    "title": "Ambient Particle #47",
+    "title": "Golden Shimmer Dust Motes",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6151,7 +6151,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Golden Shimmer Dust Motes)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6162,7 +6162,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1AyVBW81ydThAlNQKp8bxrV-k9uOXRhIT",
-    "title": "Ambient Particle #48",
+    "title": "Magical Blue and Pink Spark Burst",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6179,7 +6179,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Magical Blue and Pink Spark Burst)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6190,7 +6190,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1AnE9mtmmIxxMXmNxmDAnZxoHqxBvSMPt",
-    "title": "Ambient Particle #49",
+    "title": "Bright Glowing Match Fire Spark",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6207,7 +6207,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Bright Glowing Match Fire Spark)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
@@ -6218,7 +6218,7 @@ window.PRELOADED_SOUNDS =
   },
   {
     "id": "1CnrhI8i2bT68spkVIkKsuUVkYFTWk0eX",
-    "title": "Ambient Particle #50",
+    "title": "Green Matrix Cyber Circuit Grid",
     "category": "thumbnail-assets",
     "categoryDisplay": "Thumbnail Assets",
     "type": "image",
@@ -6235,7 +6235,7 @@ window.PRELOADED_SOUNDS =
     "source": "YouTube Thumbnail Assets",
     "subfolder": "Thumbnail particle",
     "details": {
-      "type": "YouTube Thumbnail Graphic Asset (Thumbnail particle)",
+      "type": "YouTube Thumbnail Graphic Asset (Green Matrix Cyber Circuit Grid)",
       "situation": "Subtle floating dust particles, light bokeh, and atmospheric sparkles to add cinematic depth to flat scenes.",
       "emotion": "High Contrast, Click-Optimized, Creator Grade",
       "effects": "Transparent alpha cutout / high dynamic range lighting texture.",
